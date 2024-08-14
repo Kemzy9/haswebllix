@@ -1,59 +1,57 @@
-//userimagecount.ts
-
-import mongoose, { Schema, Document } from 'mongoose';
+import Replicate from 'replicate';
 import { NextResponse } from 'next/server';
+import { UserImageCount } from '@/models/userimage/route'; // Import from the correct model file
+import { connect } from '@/dbConfig/dbConfig';
 
-// Define the interface for the UserImageCount document
-export interface IUserImageCount extends Document {
-  userId: string;
-  generatedImages: number;
-}
+const MAX_IMAGES_PER_USER = 1;
 
-// Define the schema for the UserImageCount collection
-const UserImageCountSchema: Schema = new Schema({
-  userId: { type: String, required: true, unique: true },
-  generatedImages: { type: Number, required: true, default: 0 },
-});
+connect();
 
-// Define the UserImageCount model
-const UserImageCount = mongoose.models.UserImageCount || mongoose.model<IUserImageCount>('UserImageCount', UserImageCountSchema);
-
-// Define an async function to retrieve user image count by user ID
-export async function getUserImageCount(userId: string): Promise<IUserImageCount | null> {
+export async function POST(req: Request): Promise<NextResponse> {
   try {
-    // Query the UserImageCount model by user ID
-    const userImageCount = await UserImageCount.findOne({ userId });
-    return userImageCount;
-  } catch (error) {
-    console.error('Error fetching user image count:', error);
-    return null;
-  }
-}
+    const body = await req.json();
+    const { userId, prompt } = body;
 
-// Define the GET handler
-export async function GET(req: Request): Promise<NextResponse> {
-  try {
-    const url = new URL(req.url);
-    const userId = url.searchParams.get('userId');
+    // Fetch the user's image count from the database
+    let userImageCount = await UserImageCount.findOne({ userId });
 
-    if (!userId) {
-      return NextResponse.json({ error: 'User ID is required' }, { status: 400 });
+    if (userImageCount && userImageCount.generatedImages >= MAX_IMAGES_PER_USER) {
+      return NextResponse.json({
+        error: 'Image generation limit reached. You cannot generate more images.'
+      }, { status: 403 });
     }
 
-    const userImageCount = await getUserImageCount(userId);
-
-    if (!userImageCount) {
-      return NextResponse.json({ error: 'User not found' }, { status: 404 });
-    }
-
-    return NextResponse.json({
-      imageLimit: 1, // or however you define the limit
-      generatedImages: userImageCount.generatedImages,
+    const replicate = new Replicate({
+      auth: process.env.REPLICATE_API_TOKEN as string,
     });
-  } catch (error) {
-    console.error('Error fetching user image count:', error);
-    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
+
+    const input = {
+      prompt: prompt,
+      num_outputs: 1,
+      aspect_ratio: '9:21',
+      output_format: 'webp',
+      output_quality: 90,
+    };
+
+    const output = await replicate.run(
+      'black-forest-labs/flux-schnell',
+      { input }
+    ) as string[];
+
+    const generatedImages = output.map((url) => ({ url, aspect_ratio: input.aspect_ratio }));
+
+    // Update or create the user's image count in the database
+    if (userImageCount) {
+      userImageCount.generatedImages += 1; // Increment count
+      await userImageCount.save();
+    } else {
+      userImageCount = new UserImageCount({ userId, generatedImages: 1 });
+      await userImageCount.save();
+    }
+
+    return NextResponse.json({ images: generatedImages });
+  } catch (error: any) {
+    console.error('Error generating images:', error instanceof Error ? error.message : 'Unknown error');
+    return NextResponse.json({ error: 'Image generation failed. Please try again later.' }, { status: 500 });
   }
 }
-
-export { UserImageCount };

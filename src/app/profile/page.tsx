@@ -13,7 +13,7 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { UserIcon } from "lucide-react" // Assuming you are using Lucide icons
+import { UserIcon } from "lucide-react"
 import Webllix from "@/app/UI/webllix/page"
 
 export default function ProfilePage() {
@@ -38,10 +38,10 @@ export default function ProfilePage() {
 
     return (
         <div className="relative h-screen w-screen">
-            {/* Full-page Webllix component */}
-            <Webllix className="absolute inset-0 z-0" />
-
-            {/* Navbar */}
+            <div className="absolute inset-0 z-0">
+                <Webllix />
+            </div>
+            
             <nav className="absolute top-0 left-0 w-full z-10 bg-gray-800 p-4 flex items-center justify-between">
                 <div className="flex items-center">
                     <Image src="/logo.png" alt="Logo" width={40} height={40} />
@@ -55,7 +55,6 @@ export default function ProfilePage() {
                 </button>
             </nav>
 
-            {/* Profile Card positioned conditionally */}
             {showProfileCard && (
                 <div className="absolute top-16 right-4 z-20">
                     <Card className="w-[300px] sm:w-[350px]">
