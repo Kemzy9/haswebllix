@@ -91,7 +91,7 @@ const Hero: React.FC<Props> = () => {
                         </Head>
 
                         <div className="relative">
-                            <a href="/UI/chatpdf" title="thechatpdf" className="cursor-pointer flex items-center gap- px-2 py-2 w-40 h-15 border border-transparent rounded-full bg-gradient-to-r from-blue-400 to-blue-600 hover:from-blue-500 hover:to-blue-700 text-white shadow-md transition duration-300 ease-in-out hover:shadow-lg relative text-md">
+                            <a href="/UI/webllix" title="thechatpdf" className="cursor-pointer flex items-center gap- px-2 py-2 w-40 h-15 border border-transparent rounded-full bg-gradient-to-r from-blue-400 to-blue-600 hover:from-blue-500 hover:to-blue-700 text-white shadow-md transition duration-300 ease-in-out hover:shadow-lg relative text-md">
 
                                 <div className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-200 hover:bg-blue-300">
                                     <FaBolt className="w-5 h-5 text-yellow-500" />

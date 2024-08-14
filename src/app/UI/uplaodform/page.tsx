@@ -47,7 +47,7 @@ const UploadForm: React.FC = () => {
     formData.append('pdf_file', file);
 
     try {
-      const response = await axios.post('http://localhost:9000/2015-03-31/functions/function/invocations/api/uploadpdf', formData, {
+      const response = await axios.post('http://127.0.0.1:5000/api/uploadpdf', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
