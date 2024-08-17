@@ -30,7 +30,7 @@ export async function POST(req: Request): Promise<NextResponse> {
       num_outputs: 1,
       aspect_ratio: '9:21',
       output_format: 'webp',
-      output_quality: 90,
+      output_quality: 100,
     };
 
     const output = await replicate.run(

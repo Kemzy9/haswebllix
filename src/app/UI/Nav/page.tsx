@@ -1,12 +1,11 @@
 'use client'
+import { LogIn } from 'lucide-react';
+
 
 import React from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
-
-
-
-import Logo from '../logo/page';
+import Logo from '@/app/UI/logo/page';
 
 const Nav = () => {
   const logo = {
@@ -15,76 +14,80 @@ const Nav = () => {
     business: { name: 'BusinessName' },
     alt: 'Logo Alt Text',
     size: 50,
-    quality: 75
+
+    quality: 75,
   };
 
   return (
-    <div className="w-full">
-      {/* Add any additional meta tags as needed */}
-      <header className="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-md border border-gray-100 bg-white/80 py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-screen-lg">
-        <div className="px-4">
-       
-          <div className="flex items-center justify-between">
-            
-            <div >
-            <span className="sr-only">thechatpdf</span>
-              <a aria-current="page" className="flex items-center" href="/">
-              
-               
-                <span className='italic hover:not-italic' id="websiteTitle">TheChatPdf</span>
-                
-                <p className="sr-only">Website Title</p>
-              </a>
-               
-            </div>
-            <div className="hidden md:flex md:items-center md:justify-center md:gap-5">
-              
+    <div className=" bg-gray-900">
+      <Head>
+        <title>Build landing page</title>
+        <meta name="author" content="ChatGPT and User" />
+        <meta name="keywords" content="conversation, dialogue, topics, chat, AI" />
+        <meta
+          name="description"
+          content="Transform your conversations into PDF and sign documents securely with TheChatPdf."
+        />
+        <link rel="canonical" href="https://example.com" />
+        <meta property="og:title" content="TheChatPdf - Transform Conversations to PDF & Sign Securely" />
+        <meta
+          property="og:description"
+          content="Transform your conversations into PDF and sign documents securely with TheChatPdf."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://example.com" />
+        <meta property="og:image" content="https://thechatpdf.com/og-image.jpg" />
+      </Head>
+      <NextSeo
+        title="TheChatPdf - Transform Conversations to PDF & Sign Securely"
+        description="Transform your conversations into PDF and sign documents securely with TheChatPdf."
+        openGraph={{
+          type: 'website',
+          url: 'https://example.com',
+          title: 'TheChatPdf - Transform Conversations to PDF & Sign Securely',
+          description: 'Transform your conversations into PDF and sign documents securely with TheChatPdf.',
+          images: [
+            {
+              url: 'https://thechatpdf.com/og-image.jpg',
+              alt: 'TheChatPdf - Transform Conversations to PDF & Sign Securely',
+            },
+          ],
+        }}
+        twitter={{
+          cardType: 'summary_large_image',
+        }}
+      />
+
+      <header className="bg-gray-900 water-drop-animation">
+        <div className="container  px-9 py-8 flex justify-between items-center text-white">
+
+          <div className="flex items-center space-x-4">
+            <Logo />
+            <span className="ml-2 text-white text-2xl font-semibold">WᴇʙʟLIx</span>
+            <div className="flex items-center">
 
 
             </div>
-            <div className="flex items-center justify-end gap-3">
+          </div>
 
-              <a className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150 hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" href="/signup">Sign in </a>
 
-            </div>
-            
+
+
+
+
+          <div className="flex items-center space-x-4">
+            <a href="/signup" className="inline-flex items-center px-4 py-2 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 transition-colors duration-300">
+              <LogIn className="mr-2 h-5 w-5" />
+              Sign In
+            </a>
+
           </div>
         </div>
       </header>
-      <div className="w-full">
-        <NextSeo
-          title="TheChatPdf - Transform Conversations to PDF & Sign Securely"
-          description="Transform your conversations into PDF and sign documents securely with TheChatPdf."
-          openGraph={{
-            type: 'website',
-            url: 'https://example.com',
-            title: 'TheChatPdf - Transform Conversations to PDF & Sign Securely',
-            description: 'Transform your conversations into PDF and sign documents securely with TheChatPdf.',
-            images: [
-              {
-                url: 'https://thechatpdf.com/og-image.jpg',
-                alt: 'TheChatPdf - Transform Conversations to PDF & Sign Securely',
-              },
-            ],
-          }}
-          twitter={{
-            cardType: 'summary_large_image',
-          }}
-        />
-        {/* Rest of your Hero component */}
-      </div>
+
+
     </div>
   );
 };
 
 export default Nav;
-
-
-
-
-
-
-
-
-
-
