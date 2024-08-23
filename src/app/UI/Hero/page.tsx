@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import React, { useState } from 'react';
+import Head from 'next/head';
 
 interface Logo {
     name: string;
@@ -18,47 +19,57 @@ interface Business {
 
 const Hero: React.FC = () => {
     // State variables for logo and business
-    const [logo] = useState<Logo>({
-        name: 'webllix',
-        icon: 'logo',
-        url: '/logo.png',
-        alt: 'webllix Logo',
-        size: 100,
-        quality: 80,
-    });
 
-    const [business] = useState<Business>({
-        name: 'Example Business',
-    });
+
+
 
     return (
-        <div className="min-h-screen bg-gray-900">
-            <main className="container bg-gray-900 mx-auto px-6 py-16">
-                {logo && (
-                    <a href={`#/${logo.name}`} title={`View ${logo.icon} logo for ${business?.name}`}>
-                        <Image
-                            src={logo.url}
-                            alt={logo.alt}
-                            width={logo.size}
-                            height={logo.size}
-                            priority={true}
-                            placeholder="blur"
-                            quality={logo.quality ?? 50}
-                        />
-                    </a>
-                )}
+        <div className="min-h-screen bg-gray-900 ">
+            <Head>
+                <title>Webllix AI Website Design</title>
+                <meta name="description" content="Design Custom Website with Ai " />
+                <meta name="keywords" content="AI Landing page,webllix,AI web design,AI Landing page ,web design,web design company,web design agency,web design services,custom web design" />
+                <meta name="robots" content="index, follow" />
+                <meta property="og:title" content="Webllix Generate AI Website" />
+                <meta property="og:description" content="Design Smarter, Not Harder: AI-Powered Web Creation" />
+                <meta property="og:image" content="https://wwwwebllix.com/" />
+                <meta property="og:url" content="https://webllix.com/UI/landing-page" />
+                <meta name="twitter:title" content="webllix || Design fast better  with webllix" />
+                <meta name="twitter:description" content="Transform Your Vision into Reality with High-Impact Website" />
+                <meta name="twitter:image" content="https://webllix//2.png" />
+                <meta name="description" content="AI-Powered Web Design, Building Smarter, Faster, Better." />
+                <link rel="canonical" href="https://www.webllix.com/hero" />
 
-                <section id="top" className="bg-white py-20 px-12 flex items-center">
+
+                {/* Add these lines to include your favicon */}
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+                <link rel="manifest" href="/site.webmanifest" />
+            </Head>
+
+
+
+            <main className="container bg-gray-900 mx-auto px-6 py-16 m-2 rounded-xl">
+
+
+
+                <section
+                    id="top"
+                    className="bg-gray-100 py-20 px-12 flex items-center rounded-3xl animate-gradient"
+                >
                     <div className="w-1/2 pr-12">
                         <Image
                             src="/game.png"
                             alt="A game design"
-                            width={500}
+                            width={300}
                             height={300}
                             className="rounded-md shadow-lg"
                             loading="lazy"
                         />
                     </div>
+
                     <div className="w-1/2">
                         <h1 className="text-5xl font-extrabold mb-4">
                             AI-Powered Web Design, Building Smarter, Faster, Better
@@ -77,6 +88,7 @@ const Hero: React.FC = () => {
                         </div>
                     </div>
                 </section>
+
 
                 <div className="bg-gradient-to-r from-pink-500 to-orange-500 max-w-8xl mx-auto sm:w-8/9 md:w-7/5 lg:w-3/4 h-[800px] rounded-3xl p-6">
                     <div className="mt-5 sm:mt-8 sm:flex sm:justify-center">

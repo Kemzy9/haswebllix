@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 import { UserImageCount } from '@/models/userimage/route'; // Import from the correct model file
 import { connect } from '@/dbConfig/dbConfig';
 
-const MAX_IMAGES_PER_USER = 1;
+const MAX_IMAGES_PER_USER = 50;
 
 connect();
 

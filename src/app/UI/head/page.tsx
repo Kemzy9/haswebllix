@@ -29,7 +29,7 @@ const Section = () => {
                             <Link href="/UI/gallery/landing-page" className="block bg-dark-500 shadow-md rounded-lg p-6 scroll-up rounding rotate-on-hover">
                                 <Image
                                     src="/archo.png"
-                                    alt="Two women collaborating"
+                                    alt="arch design"
                                     width={500}
                                     height={300}
                                     loading="lazy"
@@ -43,7 +43,7 @@ const Section = () => {
                             <Link href="/UI/gallery/landing-page" className="block bg-dark-500 shadow-md rounded-lg p-6 scroll-up rounding rotate-on-hover">
                                 <Image
                                     src="/game.png"
-                                    alt="Two women collaborating"
+                                    alt="game web design"
                                     width={500}
                                     height={300}
                                     loading="lazy"
@@ -57,7 +57,7 @@ const Section = () => {
                             <Link href="/UI/gallery/landing-page" className="block bg-dark-500 shadow-md rounded-lg p-6 scroll-up rounding rotate-on-hover">
                                 <Image
                                     src="/carr.png"
-                                    alt="Two women collaborating"
+                                    alt="car web"
                                     width={500}
                                     height={300}
                                     loading="lazy"
@@ -71,7 +71,7 @@ const Section = () => {
                             <Link href="/UI/gallery/landing-page" className="block bg-dark-500 shadow-md rounded-lg p-6 scroll-up rounding rotate-on-hover">
                                 <Image
                                     src="/cosmo.png"
-                                    alt="Two women collaborating"
+                                    alt="cosmetic design"
                                     width={500}
                                     height={300}
                                     loading="lazy"
@@ -85,7 +85,7 @@ const Section = () => {
                             <Link href="/UI/gallery/landing-page" className="block bg-dark-500 shadow-md rounded-lg p-6 scroll-up rounding rotate-on-hover">
                                 <Image
                                     src="/saas.png"
-                                    alt="Two women collaborating"
+                                    alt="saas design"
                                     width={500}
                                     height={300}
                                     loading="lazy"
@@ -99,7 +99,7 @@ const Section = () => {
                             <Link href="/UI/gallery/landing-page" className="block bg-dark-500 shadow-md rounded-lg p-6 scroll-up rounding rotate-on-hover">
                                 <Image
                                     src="/a3.png"
-                                    alt="Two women collaborating"
+                                    alt="education"
                                     width={500}
                                     height={300}
                                     loading="lazy"
@@ -162,7 +162,7 @@ const Section = () => {
                         <Link href="/UI/gallery/landing-page" className="block hover:rotate-3">
                             <Image
                                 src="/profile.png"
-                                alt="Digital Marketer"
+                                alt="profile"
                                 width={500}
                                 height={400}
                                 loading="lazy"
@@ -306,12 +306,12 @@ const Section = () => {
                         <div className="rotate-wrapper mt-4">
                             <Link href="/UI/gallery/landing-page" className="block hover:rotate-3">
                                 <Image
-                                    src="/coo.png"
+                                    src="/Aiwebeditory.png"
                                     alt="Digital Marketer"
                                     width={500}
                                     height={400}
                                     loading="lazy"
-                                    className="w-auto h-96 object-cover rounded-md"
+                                    className="w-auto h-55 object-cover rounded-md"
                                 />
                                 <h3 className="font-semibold text-lg mt-4"></h3>
                                 <p className="text-gray-600 mt-2"></p>
@@ -323,7 +323,7 @@ const Section = () => {
                             Build the future of the web today with AI.
                         </h1>
                         <p className="text-lg mb-6">
-                            Transform your online presence with our AI-powered design. We make it easy to create unique personalized websites design
+                            Transform your online presence with our AI-powered design. Make  it easy to create unique personalized websites design
                         </p>
                         <div className="flex justify-center">
                             <button
@@ -372,7 +372,7 @@ const Section = () => {
                     <div className="rotate-wrapper mt-4">
                         <Link href="/UI/gallery/landing-page" className="block hover:rotate-3">
                             <Image
-                                src="/profile.png"
+                                src="/them.png"
                                 alt="Digital Marketer"
                                 width={500}
                                 height={400}
@@ -383,10 +383,10 @@ const Section = () => {
                             <p className="text-gray-600 mt-2"></p>
                         </Link>
                     </div>
-                    <h1 className="text-4xl font-semibold mb-4">Design With Webllix</h1>
+                    <h1 className="text-4xl font-semibold mb-4">Generate Theme</h1>
                     <p className="text-lg mb-6">Stay ahead with AI-powered web design</p>
                     <div className="flex">
-                        <a href="#" className="bg-yellow-500 text-white px-6 py-3 rounded-full mr-4 hover:bg-yellow-600 transition duration-200">Design Best</a>
+                        <a href="/login" className="bg-yellow-500 text-white px-6 py-3 rounded-full mr-4 hover:bg-yellow-600 transition duration-200">Try free</a>
                         <a href="#" className="bg-gray-800 text-white px-6 py-3 rounded-full mr-4 hover:bg-black transition duration-200">EXPLORE COLLECTIONS</a>
  
                     </div>

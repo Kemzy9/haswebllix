@@ -58,7 +58,7 @@ export default function ProfilePage() {
                         <CodeIcon className="w-6 h-6" />
                         <button className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full shadow-lg transition duration-300">
                             Code Editor
-                        </button>Upcomping..
+                        </button>
                     </button>
                     <button
                         onClick={() => setShowProfileCard(!showProfileCard)}

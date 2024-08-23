@@ -40,7 +40,7 @@ const Webllix: React.FC = () => {
 
     setLoading(true); // Start loading
 
-    const fullPrompt = `${company} for ${prompt} landing page`;
+    const fullPrompt = `${company} for ${prompt} landing page,website design`;
 
     try {
       const response = await fetch(`/api/users/generate`, {
@@ -80,7 +80,7 @@ const Webllix: React.FC = () => {
               </label>
               <textarea
                 id="prompt"
-                placeholder="golden retriever wearing a top hat"
+                placeholder="Design a modern, visually appealing website for a tech startup that features a clean layout, bold typography, and a vibrant color palette. Include sections for services, about, and contact information, with a focus on user-friendly navigation and engaging visuals."
                 value={prompt}
                 onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
                   setPrompt(e.target.value)

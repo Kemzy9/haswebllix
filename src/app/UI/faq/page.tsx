@@ -18,7 +18,7 @@ const FrequentlyAsk = () => {
                     <div className="py-5">
                         <details className="group">
                             <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                                <span> How do build website Design with Webllix</span>
+                                <span> Why Choose Our AI Web Design Tool Webllix?</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shapeRendering="geometricPrecision"
                                         stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -27,14 +27,14 @@ const FrequentlyAsk = () => {
                                     </svg>
                                 </span>
                             </summary>
-                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Its very easy to design website /landing page  just signup  and open Dashboard  where you can type your company,trade name  and type  which kind of website design you want within in sec Webllix will generate website design 
+                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Our tool is designed to be both powerful and user-friendly, offering free access to advanced AI technology that simplifies the web design process. Whether you are creating a personal blog, an online store, or a corporate site, our AI web design generator has you covered
                             </p>
                         </details>
                     </div>
                     <div className="py-5">
                         <details className="group">
                             <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                                <span> Can I try free?</span>
+                                <span> Can I use the AI webllix design generator for free?</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shapeRendering="geometricPrecision"
                                         stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -43,7 +43,7 @@ const FrequentlyAsk = () => {
                                     </svg>
                                 </span>
                             </summary>
-                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes,We&apos;ve implemented  limit for free 1 Website design/user 
+                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes! Our AI web design generator is free to use with limit.
                             </p>
                         </details>
                     </div>
@@ -51,7 +51,7 @@ const FrequentlyAsk = () => {
                     <div className="py-5">
                         <details className="group">
                             <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                                <span> How many type of website design I can create ?</span>
+                                <span> What kind of websites can I create with this tool?</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shapeRendering="geometricPrecision"
                                         stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -63,14 +63,14 @@ const FrequentlyAsk = () => {
                             <a className="text-blue-500 hover:underline" href="/UI/gallery/landing-page">Collection</a>
 
                          
-                            When comes how many types of website design .All type of website design can be tailored to specific needs and objectives.and theres no limit to the creativity and functionality you can incorporate into all type website design
+                            You can create any kind of website, from simple landing pages to complex e-commerce sites, using our AI tools.
                             <a className="text-blue-500 hover:underline" href="">PREMIUM plan.</a>
                         </details>
                     </div>
                     <div className="py-5">
                         <details className="group">
                             <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                                <span> If I am  beginner in website design. Can I build website like professional website ?  </span>
+                                <span> If I am  beginner in website designing. Can I create website like professional website ?  </span>
                                 <span className="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shapeRendering="geometricPrecision"
                                         stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -79,7 +79,7 @@ const FrequentlyAsk = () => {
                                     </svg>
                                 </span>
                             </summary>
-                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes,If you are beginner you came the right palace Webllix offer for beginner to design website with just with prompt and your website design will be ready .
+                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes,If you are beginner you came the right palace Webllix offer for beginner to design website with just prompt and your website design will be ready .
                             </p>
                         </details>
                     </div>

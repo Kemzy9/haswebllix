@@ -21,7 +21,7 @@ interface SearchResultProps {
 const SearchResult: React.FC<SearchResultProps> = ({ title, url, description, imageUrl, onClick }) => {
     return (
         <article
-            className="search-result flex p-4 border-b border-gray-200 cursor-pointer"
+            className="search-result flex flex-row-reverse p-4 border-b border-gray-200 cursor-pointer"
             itemScope
             itemType="http://schema.org/Article"
             onClick={onClick}
@@ -58,43 +58,44 @@ const SearchResultsPage: React.FC = () => {
 
     const results = [
         {
-            title: 'Innovative Website Design and Development',
-            url: 'https://webllix/UI/gallery/landing-page',
-            description: 'Discover the cutting-edge trends in website design for 2024. Get inspired by sleek, modern aesthetics that engage and captivate users.',
-            imageUrl: '/education.png', // Replace with the appropriate image URL
-        },
-        {
-            title: 'Architectural Landing Page Design by Ai Webllix',
-            url: 'https://www.webllix/UI/gallery/landing-page',
-            description: 'Unlock the secrets to a captivating landing page tailored for architectural firms.',
-            imageUrl: '/archit.png', // Replace with the appropriate image URL
-        },
-        {
-            title: 'Sleek Modern Landing Page for Yacht company',
-            url: 'https://webllix/UI/gallery/landing-page',
-            description: 'Transform your yacht company with our state-of-the-art AI design tools. Enjoy smart, intuitive features that elevate your design presence.',
-            imageUrl: '/yacht.png', // Replace with the appropriate image URL
-        },
-        {
-            title: 'Expert Tips for Customizing Your Landing Page',
-            url: 'https://webllix/UI/gallery/landing-page',
-            description: 'Make your landing page stand out with AI-driven design tips. Learn how to create stunning visuals effortlessly and boost your online appeal.',
-            imageUrl: '/cosmetic.png', // Replace with the appropriate image URL
-        },
-        {
-            title: 'Elegant Modern Website Design for Hotels by Webllix',
-            url: 'https://webllix/UI/gallery/landing-page',
-            description: 'Elevate your hotels online presence with our seamless AI-powered design tools. Create and optimize visually striking designs with ease.',
-            imageUrl: '/a3.png', // Replace with the appropriate image URL
-        },
-        {
-            title: 'Ultimate Customization Tips for Game Website Design',
+            title: 'Education Landing Pages: Fresh AI-Driven Designs for 2024',
+            url: 'https://webllix/UI/gallery/web-design',
+            description: 'Explore the latest in educational landing page designs with modern, minimalist layouts that captivate and educate your audience.',
+            imageUrl: '/education.png', // Replace with the correct image URL
+          },
+          {
+            title: 'Boost Your Architecture Site: AI-Enhanced Landing Pages',
+            url: 'https://webllix/UI/gallery/web-design',
+            description: 'Customize your architecture landing page for better engagement and conversions. Get practical tips for standout designs.',
+            imageUrl: '/archit.png', // Replace with the correct image URL
+          },
+          {
+            title: 'Sleek Yacht Sales Pages: Modern AI-Powered Designs',
+            url: 'https://webllix/UI/gallery/web-design',
+            description: 'Transform your yacht sales page with cutting-edge AI tools for a sleek, smart digital experience.',
+            imageUrl: '/yacht.png', // Replace with the correct image URL
+          },
+          {
+            title: 'Cosmetic Landing Pages: Top AI Tips for Stunning Designs',
+            url: 'https://webllix/UI/gallery/web-design',
+            description: 'Effortlessly create stunning cosmetic landing pages with AI-powered tools that streamline your design process.',
+            imageUrl: '/cosmetic.png', // Replace with the correct image URL
+          },
+          {
+            title: 'Hotel Websites Reimagined: Modern AI Design Solutions',
+            url: 'https://webllix/UI/gallery/web-design',
+            description: 'Leverage AI to craft seamless, user-friendly hotel websites with modern design and optimized performance.',
+            imageUrl: '/a3.png', // Replace with the correct image URL
+          },
+          {
+            title: 'Level Up Your Game Site: AI-Enhanced Landing Page Designs',
             url: 'https://webllix/UI/gallery/landing-pages',
-            description: 'Revolutionize your game website with advanced AI tools. ',
-            imageUrl: '/game.png', // Replace with the appropriate image URL
-        },
-    ];
-    const pageTitle = " Custom website design Ai Webllix";
+            description: 'Elevate your gaming site with AI-driven creativity and design tools that inspire innovation and simplify the process.',
+            imageUrl: '/game.png', // Replace with the correct image URL
+          },
+        ];
+
+    const pageTitle = "Top AI Landing Page Design by weblllix Inspirations | Design website wiht";
     const pageDescription = "Discover the latest and most effective landing page designs for 2024. Get inspiration and tips on how to customize your page for better user engagement and conversions.";
 
     const handleResultClick = (imageUrl: string) => {
@@ -106,12 +107,11 @@ const SearchResultsPage: React.FC = () => {
             <Head>
                 <title>{pageTitle}</title>
                 <meta name="description" content={pageDescription} />
-                <meta name="keywords" content="custom website design, AI website design , custom website design,website design ideas" />
-                <link rel="canonical" href="https://www.webllix.com/UI/gallery/landing-page" />
+                <link rel="canonical" href="https://www.webllix.com/galler/UI/gallery/web-design" />
                 <meta property="og:title" content={pageTitle} />
                 <meta property="og:description" content={pageDescription} />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://www.webllix.com/" />
+                <meta property="og:url" content="https://www.webllix.com/galler/UI/gallery/web-design" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content={pageTitle} />
                 <meta name="twitter:description" content={pageDescription} />
@@ -129,7 +129,7 @@ const SearchResultsPage: React.FC = () => {
 
                             <ul className="space-y-2">
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
-                                    <a href="/" className="text-lg font-semibold text-blue-600 hover:text-blue-800 hover:underline hover:bg-blue-50 p-2 rounded-md transition-colors duration-300">
+                                    <a href="" className="text-lg font-semibold text-blue-600 hover:text-blue-800 hover:underline hover:bg-blue-50 p-2 rounded-md transition-colors duration-300">
                                         E-commerce
                                     </a>
                                     <span className="text-sm font-medium text-gray-500 bg-yellow-200 px-2 py-1 rounded-full">
@@ -145,14 +145,6 @@ const SearchResultsPage: React.FC = () => {
                                     </span>
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
-                                    <a href="" className="text-lg font-semibold text-purple-600 hover:text-purple-800 hover:underline hover:bg-purple-50 p-2 rounded-md transition-colors duration-300">
-                                        Social Media
-                                    </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-teal-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
-                                </li>
-                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-red-600 hover:text-red-800 hover:underline hover:bg-red-50 p-2 rounded-md transition-colors duration-300">
                                         Forum
                                     </a>
@@ -160,6 +152,15 @@ const SearchResultsPage: React.FC = () => {
                                         Upcoming
                                     </span>
                                 </li>
+                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
+                                    <a href="" className="text-lg font-semibold text-purple-600 hover:text-purple-800 hover:underline hover:bg-purple-50 p-2 rounded-md transition-colors duration-300">
+                                        Social Media
+                                    </a>
+                                    <span className="text-sm font-medium text-gray-500 bg-teal-200 px-2 py-1 rounded-full">
+                                        Upcoming
+                                    </span>
+                                </li>
+                                
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-blue-600 hover:text-blue-800 hover:underline hover:bg-blue-50 p-2 rounded-md transition-colors duration-300">
                                         Hotel
@@ -171,40 +172,6 @@ const SearchResultsPage: React.FC = () => {
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-green-600 hover:text-green-800 hover:underline hover:bg-green-50 p-2 rounded-md transition-colors duration-300">
                                         Digital Product
-                                    </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-pink-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
-                                </li>
-                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
-                                    <a href="" className="text-lg font-semibold text-purple-600 hover:text-purple-800 hover:underline hover:bg-purple-50 p-2 rounded-md transition-colors duration-300">
-                                        Fitness
-                                    </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-teal-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
-                                </li>
-                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
-                                    <a href="" className="text-lg font-semibold text-red-600 hover:text-red-800 hover:underline hover:bg-red-50 p-2 rounded-md transition-colors duration-300">
-                                        Sports
-                                    </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-purple-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
-                                </li>
-
-
-                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
-                                    <a href="" className="text-lg font-semibold text-blue-600 hover:text-blue-800 hover:underline hover:bg-blue-50 p-2 rounded-md transition-colors duration-300">
-                                        Consulting
-                                    </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-yellow-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
-                                </li>
-                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
-                                    <a href="" className="text-lg font-semibold text-green-600 hover:text-green-800 hover:underline hover:bg-green-50 p-2 rounded-md transition-colors duration-300">
-                                        Freelancer Portfolio
                                     </a>
                                     <span className="text-sm font-medium text-gray-500 bg-pink-200 px-2 py-1 rounded-full">
                                         Upcoming
@@ -226,6 +193,42 @@ const SearchResultsPage: React.FC = () => {
                                         Upcoming
                                     </span>
                                 </li>
+                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
+                                    <a href="" className="text-lg font-semibold text-purple-600 hover:text-purple-800 hover:underline hover:bg-purple-50 p-2 rounded-md transition-colors duration-300">
+                                        Fitness
+                                    </a>
+                                    <span className="text-sm font-medium text-gray-500 bg-teal-200 px-2 py-1 rounded-full">
+                                        Upcoming
+                                    </span>
+                                </li>
+                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
+                                    <a href="" className="text-lg font-semibold text-red-600 hover:text-red-800 hover:underline hover:bg-red-50 p-2 rounded-md transition-colors duration-300">
+                                        Sports
+                                    </a>
+                                    <span className="text-sm font-medium text-gray-500 bg-purple-200 px-2 py-1 rounded-full">
+                                        Upcoming
+                                    </span>
+                                </li>
+
+
+                                
+                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
+                                    <a href="" className="text-lg font-semibold text-green-600 hover:text-green-800 hover:underline hover:bg-green-50 p-2 rounded-md transition-colors duration-300">
+                                        Freelancer Portfolio
+                                    </a>
+                                    <span className="text-sm font-medium text-gray-500 bg-pink-200 px-2 py-1 rounded-full">
+                                        Upcoming
+                                    </span>
+                                </li>
+                                <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
+                                    <a href="" className="text-lg font-semibold text-blue-600 hover:text-blue-800 hover:underline hover:bg-blue-50 p-2 rounded-md transition-colors duration-300">
+                                        Consulting
+                                    </a>
+                                    <span className="text-sm font-medium text-gray-500 bg-yellow-200 px-2 py-1 rounded-full">
+                                        Upcoming
+                                    </span>
+                                </li>
+                                
 
                             </ul>
                         </nav>
