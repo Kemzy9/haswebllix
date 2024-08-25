@@ -1,3 +1,5 @@
+
+
 'use client'
 import { LogIn } from 'lucide-react';
 
@@ -19,7 +21,7 @@ const Nav = () => {
   };
 
   return (
-    <div className=" bg-gray-900 ">
+    <div className=" bg-gray-900 max-width: 320px " >
       <Head>
         <title>Build landing page</title>
         <meta name="author" content="Webblix" />
@@ -38,31 +40,32 @@ const Nav = () => {
         <meta property="og:url" content="https://webllix.com" />
         <meta property="og:image" content="https://webllix.com/og-logo.jpg" />
       </Head>
-      
-
-      
 
 
-      <header className="bg-gray-900 ">
+
+
+
+      <header className="bg-gray-900 rounded-lg ">
         <div className="container  px-9 py-8 flex justify-between items-center text-white">
 
           <div className="flex items-center space-x-4">
             <Logo />
-            <span className="ml-2 text-white text-2xl font-semibold">WᴇʙʟLix</span>
+            <span className="ml-2 text-white text-xl font-semibold">WᴇʙʟLix</span>
             <div className="flex items-center">
 
 
             </div>
           </div>
+          
 
 
 
 
 
 
-          <div className="flex items-center space-x-4">
-            <a href="/signup" className="inline-flex items-center px-4 py-2 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 transition-colors duration-300">
-              <LogIn className="mr-2 h-5 w-5" />
+          <div className="flex items-center space-x-4 ">
+            <a href="/signup" className="underline">
+
               Sign In
             </a>
 

@@ -1,5 +1,3 @@
-// blog/page.tsx
-
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
@@ -24,57 +22,55 @@ const BlogList: React.FC = () => {
   );
 
   return (
-    <main className="container mx-auto p-4">
+    <main className="container mx-auto px-6 py-16">
       <Nav />
-      <h1 className="text-3xl font-bold mb-4">Blog</h1>
+      <section className="text-center mb-16 water-drop-animation rounded-md">
+        <h1 className="text-3xl font-bold mb-4">Blog</h1>
 
-      <input
-        type="text"
-        placeholder="Search blog..."
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-        className="mb-6 p-2 border bg-white rounded w-full"
-      />
+        <input
+          type="text"
+          placeholder="Search blog..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="mb-6 p-2 border bg-white rounded w-full"
+        />
 
-      {filteredPosts.length > 0 ? (
-        filteredPosts.map((post) => (
-          <div key={post.id} className="mb-8 flex items-center justify-between">
-            {/* Blog Title and Summary */}
-            <div className="w-3/4">
-              <Link href={`/blog/${post.slug}`} className="block">
-                <h2 className="text-2xl font-semibold text-blue-500">
-                  {post.title}
-                </h2>
-                <p>{post.summary}</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredPosts.length > 0 ? (
+            filteredPosts.map((post) => (
+              <Link
+                href={`/blog/${post.slug}`}
+                key={post.id}
+                className="flex flex-col items-center border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl transform transition-transform duration-500 ease-in-out hover:scale-105"
+              >
+                <div className="overflow-hidden">
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    className="object-cover w-full h-48 md:h-60 md:w-60 rounded-t-lg md:rounded-none md:rounded-s-lg"
+                    width={240}
+                    height={240}
+                    loading="lazy"
+                  />
+                </div>
+                <div className="flex flex-col justify-between p-4 leading-normal">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                    {post.title}
+                  </h5>
+                  <p className="mb-3 font-normal text-gray-700">
+                    {post.summary}
+                  </p>
+                </div>
               </Link>
-            </div>
-
-            {/* Side Image */}
-            <div className="w-1/4 ml-4">
-              <Link href={`/blog/${post.slug}`}>
-                <Image
-                  src={post.image}
-                  alt={post.title}
-                  className="w-full h-auto rounded"
-                  width={150}
-                  height={150}
-                />
-              </Link>
-            </div>
-          </div>
-        ))
-      ) : (
-        <p>No posts found.</p>
-      )}
-
+            ))
+          ) : (
+            <p>No posts found.</p>
+          )}
+        </div>
+      </section>
       <Footer />
     </main>
   );
 };
 
 export default BlogList;
-
-
-
-
-

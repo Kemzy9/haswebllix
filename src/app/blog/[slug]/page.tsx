@@ -99,32 +99,8 @@ const BlogPost: React.FC = () => {
       </main>
       <Footer />
       {/* Structured Data */}
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Service",
-          "name": "Introducing Webllix",
-          "url": "https://www.webllix.com/",
-          "description": "Webblix. Desing Website with Webllix ",
-          "provider": {
-            "@type": "Organization",
-            "name": "webllix"
-          },
-          "offers": {
-            "@type": "Blog",
-            "url": "https://www.webllix.com/blog",
+      
 
-         
-            "priceValidUntil": "2024-12-31",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Blog"
-            }
-            
-          }
-          
-        })}
-      </script>
     </>
   );
 };

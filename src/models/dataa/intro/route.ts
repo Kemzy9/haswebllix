@@ -11,9 +11,9 @@ export interface Intro {
   export const intro: Intro[] = [
     {
       id: 1,
-      title: "Introducing AI WebLLix Intro",
+      title: "Website Maker AI: Effortless Website Creation with AI ",
       summary:
-        "Webllix -the future of web design. Whether you're a business owner, entrepreneur, or creative professional, Webllix is here to make website creation effortless and efficient.",
+        "Create beautiful, responsive websites easily with AI-driven tools. Customizable templates, real-time editing, and automated design suggestions ensure a professional look without coding",
       content: `
         <nav class="top-nav">
           <!-- Navigation items here -->
@@ -252,7 +252,7 @@ export interface Intro {
     </div>
     <div style="">
         <h2 style="">Analytics and Insights</h2>
-        <p style="">Gain valuable insights into customer behavior with webllix’s comprehensive analytics. Understand your audience better and optimize your sales strategies for maximum impact.</p>
+        <p style="">Gain valuable insights into customer behavior with webllix comprehensive analytics. Understand your audience better and optimize your sales strategies for maximum impact.</p>
     </div>
 </section>
 
@@ -343,7 +343,7 @@ export interface Intro {
         <p>webllix offers 24/7 customer support via chat and email. We also provide detailed documentation and tutorials to help you get the most out of the platform.</p>
 
         <h3>Can webllix scale with my business as it grows?</h3>
-        <p>Absolutely. webllix is designed to be scalable, making it suitable for businesses of all sizes. You can customize the chatbot’s functionalities to meet your specific needs.</p>
+        <p>Absolutely. webllix is designed to be scalable, making it suitable for businesses of all sizes. You can customize the chatbot&quot;s functionalities to meet your specific needs.</p>
     </div>
 </section>
 
@@ -352,80 +352,17 @@ export interface Intro {
 </footer>
         <article class="bg-white text-black">
           <header>
-            <h1 class="text-5xl font-extrabold mb-6 text-black-100">How AI is Revolutionizing Web Design</h1>
+            <h1 class="text-5xl font-extrabold mb-6 text-black-100">A simple Saas website </h1>
             <p class="text-xl mb-8 text-black-300">Discover how AI is transforming the web design process, making it accessible for everyone, from beginners to professionals.</p>
           </header>
           
-          <section>
-            <h2 class="text-4xl font-semibold mb-6 text-black-100">What is AI-Powered Web Design?</h2>
-            <p class="mb-6 text-black-300">AI-powered web design leverages intelligent algorithms to automate the creation of websites. With , you can effortlessly create beautiful, responsive designs without writing a single line of code.</p>
-            <ul class="list-disc pl-8 mb-6 text-black-300">
-              <li>Instant layout and design suggestions</li>
-              <li>Automatic optimization for all devices</li>
-              <li>Customizable templates tailored to your brand</li>
-            </ul>
-            
-          </section>
           
-          <section>
-            <h2 class="text-4xl font-semibold mb-6 text-black-100">Why Choose AI for Your Website?</h2>
-            <p class="mb-6 text-black-300">AI-driven design offers unparalleled speed, efficiency, and creativity. Its like having a professional designer at your fingertips, 24/7.</p>
-            <ul class="list-disc pl-8 mb-6 text-black-300">
-              <li>Faster turnaround for website projects</li>
-              <li>Consistent, high-quality designs</li>
-              <li>Cost-effective solutions for businesses of all sizes</li>
-            </ul>
-          </section>
+          
+          
   
-          <div className="w-1/2 pr-12 mb-8">
-            <Image
-              src="/Aiwebeditory.png"
-              alt="AI Web Design"
-              width={500}
-              height={300}
-              className="rounded-lg shadow-md"
-              loading="lazy"
-            />
-          </div>
-  
-          <section>
-            <h2 class="text-4xl font-semibold mb-6 text-black-100">How to Get Started with AI Web Design</h2>
-            <ol class="list-decimal pl-8 mb-6 text-black-300">
-              <li class="mb-4">
-                <h3 class="text-3xl font-semibold mb-3 text-black-100">Sign Up for webllix</h3>
-                <p>Join WebLLix and get instant access to webllix. Start designing your website today.</p>
-              </li>
-              <li class="mb-4">
-                <h3 class="text-3xl font-semibold mb-3 text-black-100">Choose a Template</h3>
-                <p>Browse through a variety of customizable templates tailored to your industry and needs.</p>
-              </li>
-              <li class="mb-4">
-                <h3 class="text-3xl font-semibold mb-3 text-black-100">Personalize Your Design</h3>
-                <p>Use AI-powered tools to adjust colors, fonts, and layouts to perfectly match your brand.</p>
-              </li>
-              <li class="mb-4">
-                <h3 class="text-3xl font-semibold mb-3 text-black-100">Publish and Grow</h3>
-                <p>Once your website is ready, publish it with a single click and watch your online presence flourish.</p>
-              </li>
-            </ol>
-          </section>
-  
-          <!-- New rotating image section -->
-          <div className="rotate-wrapper mt-12">prompt> "Design a modern, sleek chatbot website for an eCommerce business. The homepage should feature a clean layout with a focus on AI-driven customer engagement. Include a hero section with a clear call-to-action"
-            <Link href="/UI/gallery/landing-page" className="block bg-dark-500 shadow-md rounded-lg p-6 scroll-up rounding rotate-on-hover">
-             
-              <h3 className="font-semibold text-white mt-2">Arch</h3>
-              <p href="/blog" className="text-white mt-2">Explore stunning architecture designs and more.</p>
-              <a href="/" class="text-indigo-600  border-e-blue-800 transition">Saas AI web design</a>
-            </Link>
-          </div>
-  
-          <footer class="mt-12 text-center">
-            <p class="mb-6 text-xl text-black-100">Ready to revolutionize your web design process? Experience the power of AI with webllix today.</p>
-            <a href="https://example.com/buy-ai-web-design-guide" class="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">Buy Now</a>
-          </footer>
+         
         </article>
-        <span style="color: rgb(137, 11, 11);"></span>
+      
 
 
     
@@ -436,270 +373,169 @@ export interface Intro {
         
       `,
       slug: "Ai-web-design",
-      image: "/AI-website -for-saas.png",
-      buyNowLink: "https://example.com/buy-ai-web-design-guide",
+      image: "/carr.png",
+     
     },
     // Add more blog posts here
 
     {
         id: 2,
-        title: "top-website-design",
+        title: "Top best website design by AI  ",
         summary:
           "Webllix -  top website design by   AI the future of web design.",
         content: `
           
-          <article class="bg-white text-black">
-            <header>
-              <h1 class="text-5xl font-extrabold mb-6 text-black-100">How AI is Revolutionizing Web Design</h1>
-              <p class="text-xl mb-8 text-black-300">Discover how AI is transforming the web design process, making it accessible for everyone, from beginners to professionals.</p>
-            </header>
-            
-            <section>
-              <h2 class="text-4xl font-semibold mb-6 text-black-100">What is AI-Powered Web Design?</h2>
-              <p class="mb-6 text-black-300">AI-powered web design leverages intelligent algorithms to automate the creation of websites. With , you can effortlessly create beautiful, responsive designs without writing a single line of code.</p>
-              <ul class="list-disc pl-8 mb-6 text-black-300">
-                <li>Instant layout and design suggestions</li>
-                <li>Automatic optimization for all devices</li>
-                <li>Customizable templates tailored to your brand</li>
-              </ul>
-              
-            </section>
-            <div className="w-1/2 pr-12 mb-8">
-              <Image
-                src="/archo.png"
-                alt="AI Web Design"
-                width={500}
-                height={300}
-                className="rounded-lg shadow-md"
-                loading="lazy"
-              />
-            </div>
-    
-            
-            <section>
-              <h2 class="text-4xl font-semibold mb-6 text-black-100">Why Choose AI for Your Website?</h2>
-              <p class="mb-6 text-black-300">AI-driven design offers unparalleled speed, efficiency, and creativity. Its like having a professional designer at your fingertips, 24/7.</p>
-              <ul class="list-disc pl-8 mb-6 text-black-300">
-                <li>Faster turnaround for website projects</li>
-                <li>Consistent, high-quality designs</li>
-                <li>Cost-effective solutions for businesses of all sizes</li>
-              </ul>
-            </section>
-    
-            <div className="w-1/2 pr-12 mb-8">
-              <Image
-                src="/Aiwebeditory.png"
-                alt="AI Web Design"
-                width={500}
-                height={300}
-                className="rounded-lg shadow-md"
-                loading="lazy"
-              />
-            </div>
-
-    
-            <section>
-              <h2 class="text-4xl font-semibold mb-6 text-black-100">How to Get Started with AI Web Design</h2>
-              <ol class="list-decimal pl-8 mb-6 text-black-300">
-                <li class="mb-4">
-                  <h3 class="text-3xl font-semibold mb-3 text-black-100">Sign Up for webllix</h3>
-                  <p>Join WebLLix and get instant access to webllix. Start designing your website today.</p>
-                </li>
-                <div className="w-1/2 pr-12 mb-8">
-              <Image
-                src="/cosmetic.png"
-                alt="AI Web Design"
-                width={500}
-                height={300}
-                className="rounded-lg shadow-md"
-                loading="lazy"
-              />
-            </div>
-    
-                <li class="mb-4">
-                  <h3 class="text-3xl font-semibold mb-3 text-black-100">Choose a Template</h3>
-                  <p>Browse through a variety of customizable templates tailored to your industry and needs.</p>
-                </li>
-                <li class="mb-4">
-                  <h3 class="text-3xl font-semibold mb-3 text-black-100">Personalize Your Design</h3>
-                  <p>Use AI-powered tools to adjust colors, fonts, and layouts to perfectly match your brand.</p>
-                </li>
-                <li class="mb-4">
-                  <h3 class="text-3xl font-semibold mb-3 text-black-100">Publish and Grow</h3>
-                  <p>Once your website is ready, publish it with a single click and watch your online presence flourish.</p>
-                </li>
-              </ol>
-            </section>
-            <div className="w-1/2 pr-12 mb-8">
-              <Image
-                src="/archit.png"
-                alt="AI Web Design"
-                width={500}
-                height={300}
-                className="rounded-lg shadow-md"
-                loading="lazy"
-              />
-            </div>
-    
-    
-            <!-- New rotating image section -->
-            <div className="rotate-wrapper mt-12">prompt> "Design a modern, sleek chatbot website for an eCommerce business. The homepage should feature a clean layout with a focus on AI-driven customer engagement. Include a hero section with a clear call-to-action"
-              <Link href="/UI/gallery/landing-page" className="block bg-dark-500 shadow-md rounded-lg p-6 scroll-up rounding rotate-on-hover">
-               
-                <h3 className="font-semibold text-white mt-2">Arch</h3>
-                <p href="/blog" className="text-white mt-2">Explore stunning architecture designs and more.</p>
-                <a href="/" class="text-indigo-600  border-e-blue-800 transition">Saas AI web design</a>
-              </Link>
-            </div>
-            <div className="w-1/2 pr-12 mb-8">
-              <Image
-                src="/carr.png"
-                alt="AI Web Design"
-                width={500}
-                height={300}
-                className="rounded-lg shadow-md"
-                loading="lazy"
-              />
-            </div>
-            <div className="w-1/2 pr-12 mb-8">
-              <Image
-                src="/archit.png"
-                alt="AI Web Design"
-                width={500}
-                height={300}
-                className="rounded-lg shadow-md"
-                loading="lazy"
-              />
-            </div>
-    
-    
-    
-            <footer class="mt-12 text-center">
-              <p class="mb-6 text-xl text-black-100">Ready to revolutionize your web design process? Experience the power of AI with webllix today.</p>
-              <a href="https://example.com/buy-ai-web-design-guide" class="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">Buy Now</a>
-            </footer>
-          </article>
-          <span style="color: rgb(137, 11, 11);"></span>
+<article class="bg-white text-black">
+  <header>
+    <h1 class="text-5xl font-extrabold mb-6 text-black-100">Top Best Website Designs by AI </h1>
+    <p class="text-xl mb-8 text-black-300">Explore the most outstanding website designs of the year, showcasing the best in creativity, functionality, and user experience.</p>
+  </header>
   
-        `,
-        slug: "Ai",
+  <section>
+    <h2 class="text-4xl font-semibold mb-6 text-black-100">What Makes a Top Website Design?</h2>
+    <p class="mb-6 text-black-300">Top website designs excel in several key areas: aesthetics, usability, and performance. They seamlessly blend eye-catching visuals with intuitive navigation and robust functionality.</p>
+    <ul class="list-disc pl-8 mb-6 text-black-300">
+      <li>Striking visuals that capture attention</li>
+      <li>Intuitive and user-friendly navigation</li>
+      <li>Responsive design that looks great on any device</li>
+      <li>Fast loading times and optimized performance</li>
+    </ul>
+  </section>
+
+  <div class="w-full md:w-1/2 pr-12 mb-8">
+    <Image
+      src="/archo.png"
+      alt="Top Website Design"
+      width={600}
+      height={400}
+      className="rounded-lg shadow-md"
+      loading="lazy"
+    />
+  </div>
+
+  <section>
+    <h2 class="text-4xl font-semibold mb-6 text-black-100">Examples of Stunning Website Designs</h2>
+    <p class="mb-6 text-black-300">Here are some of the most impressive website designs of 2024, each demonstrating unique design principles and innovative features.</p>
+    <ul class="list-disc pl-8 mb-6 text-black-300">
+      <li>Minimalist designs with a focus on whitespace</li>
+      <li>Interactive elements that engage users</li>
+      <li>Bold typography and vibrant color schemes</li>
+      <li>Creative use of multimedia and animations</li>
+    </ul>
+  </section>
+
+  <div class="w-full md:w-1/2 pr-12 mb-8">
+    <Image
+      src="/Aiwebeditory.png"
+      alt="Top Website Design Example"
+      width={600}
+      height={400}
+      className="rounded-lg shadow-md"
+      loading="lazy"
+    />
+  </div>
+
+  <section>
+    <h2 class="text-4xl font-semibold mb-6 text-black-100">How to Achieve Top-Tier Website Design</h2>
+    <ol class="list-decimal pl-8 mb-6 text-black-300">
+      <li class="mb-4">
+        <h3 class="text-3xl font-semibold mb-3 text-black-100">Understand Your Audience</h3>
+        <p>Tailor your design to meet the needs and preferences of your target audience for better engagement and conversion.</p>
+      </li>
+      <div class="w-full md:w-1/2 pr-12 mb-8">
+        <Image
+          src="/cosmetic.png"
+          alt="Website Design Tips"
+          width={600}
+          height={400}
+          className="rounded-lg shadow-md"
+          loading="lazy"
+        />
+      </div>
+      <li class="mb-4">
+        <h3 class="text-3xl font-semibold mb-3 text-black-100">Focus on User Experience</h3>
+        <p>Ensure that your website is easy to navigate, with clear calls to action and a seamless user journey.</p>
+      </li>
+      <li class="mb-4">
+        <h3 class="text-3xl font-semibold mb-3 text-black-100">Incorporate Modern Design Trends</h3>
+        <p>Stay updated with the latest design trends and technologies to keep your website fresh and relevant.</p>
+      </li>
+      <li class="mb-4">
+        <h3 class="text-3xl font-semibold mb-3 text-black-100">Optimize for All Devices</h3>
+        <p>Ensure your website performs well on all devices, from desktops to smartphones, with a responsive design.</p>
+      </li>
+    </ol>
+  </section>
+
+  <div class="w-full md:w-1/2 pr-12 mb-8">
+    <Image
+      src="/archit.png"
+      alt="Top Website Design Tips"
+      width={600}
+      height={400}
+      className="rounded-lg shadow-md"
+      loading="lazy"
+    />
+  </div>
+
+  <!-- New rotating image section -->
+  <div class="rotate-wrapper mt-12">
+    <Link href="/UI/gallery/landing-page" className="block bg-dark-500 shadow-md rounded-lg p-6 scroll-up rounded rotate-on-hover">
+      <h3 className="font-semibold text-white mt-2">Explore Designs</h3>
+      <p className="text-white mt-2">Check out our gallery for more examples of outstanding website designs.</p>
+      <a href="/" class="text-indigo-600 border-e-blue-800 transition">Explore Now</a>
+    </Link>
+  </div>
+
+  <div class="w-full md:w-1/2 pr-12 mb-8">
+    <Image
+      src="/carr.png"
+      alt="Top Website Design Inspiration"
+      width={600}
+      height={400}
+      className="rounded-lg shadow-md"
+      loading="lazy"
+    />
+  </div>
+
+  <footer class="mt-12 text-center">
+    <p class="mb-6 text-xl text-black-100">Ready to elevate your website design? Discover the best practices and trends for creating top-tier websites with Ai model</p>
+    <a href="https://example.com/" class="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">Try free</a>
+  </footer>
+</article>
+
+`,
+        slug: "top-website-design",
         image: "/game.png",
-        buyNowLink: "https://example.com/buy-ai-web-design-guide",
+
       },
 
 
       {
         "id": 3,
-        "title": "Introducing WebLLix",
+        "title": "E-Commerce Website Creator ",
         "summary": "WebLLix is the best.",
         "content": `
         <nav class="top-nav bg-gray-900 text-white">
             <!-- Navigation items here -->
         </nav>
-        <article class="container mx-auto p-4 bg-gray-800 text-white">
-            <header class="flex items-center mb-6">
-                <img src="/sophia.png" alt="Profile icon" class="w-12 h-12 rounded-full mr-4" />
-                <h1 class="text-2xl font-bold">Sofia</h1>
-            </header>
+        <article class="container mx-auto p-4 bg-white text-black">
+           
             <header>
                 <h1 class="text-4xl font-bold mb-4">Design Websites and Get Code Faster with WebLLix</h1>
                 <p class="text-lg mb-6">Discover the steps and strategies to create stunning websites effortlessly with WebLLix, the best AI-powered website builder.</p>
             </header>
             
-            <section>
-                <h2 class="text-3xl font-semibold mb-4">What is WebLLix?</h2>
-                <p class="mb-4">WebLLix is an innovative AI-driven platform that allows you to design and build professional websites quickly, featuring:</p>
-                <ul class="list-disc pl-6 mb-4">
-                    <li>Customizable design templates</li>
-                    <li>Effortless drag-and-drop interface</li>
-                    <li>SEO optimization tools</li>
-                    <li>Seamless integration with popular platforms</li>
-                </ul>
-                <div className="w-1/2 pr-12">
-                    <Image
-                        src="/a4.png"
-                        alt="A website design"
-                        width={300}
-                        height={300}
-                        className="rounded-md shadow-lg"
-                        loading="lazy"
-                    />
-                </div>
-            </section>
             
-            <section>
-                <h2 class="text-3xl font-semibold mb-4">Why Choose WebLLix?</h2>
-                <p class="mb-4">WebLLix stands out as the leading website builder due to its user-friendly interface, flexibility, and cutting-edge AI technology that helps you build websites in minutes.</p>
-                <ul class="list-disc pl-6 mb-4">
-                    <li>Customizable to suit any business needs</li>
-                    <li>Boosts your online presence with built-in SEO tools</li>
-                    <li>Designed for both beginners and professionals</li>
-                </ul>
-            </section>
+            
+            
+            
+            
+            
+            
             
             <Image
-                src="/2.png"
-                alt="A website design"
-                width={300}
-                height={300}
-                className="rounded-md shadow-lg"
-                loading="lazy"
-            />
-            
-            <section>
-                <h2 class="text-3xl font-semibold mb-4">How to Create a Website with WebLLix in 6 Steps</h2>
-                <ol class="list-decimal pl-6 mb-4">
-                    <li>
-                        <h3 class="text-2xl font-semibold mb-2">Choose a Template</h3>
-                        <p class="mb-4">Select from a variety of professionally designed templates that suit your business or personal needs.</p>
-                    </li>
-                    <li>
-                        <h3 class="text-2xl font-semibold mb-2">Customize Your Design</h3>
-                        <p class="mb-4">Use WebLLix’s intuitive drag-and-drop editor to adjust the layout, colors, and content.</p>
-                    </li>
-                    <li>
-                        <h3 class="text-2xl font-semibold mb-2">Optimize for SEO</h3>
-                        <p class="mb-4">Ensure your website ranks well in search engines with built-in SEO tools.</p>
-                    </li>
-                    <li>
-                        <h3 class="text-2xl font-semibold mb-2">Integrate Third-Party Services</h3>
-                        <p class="mb-4">Add e-commerce, social media, or analytics tools to enhance your website’s functionality.</p>
-                    </li>
-                    <li>
-                        <h3 class="text-2xl font-semibold mb-2">Preview and Test</h3>
-                        <p class="mb-4">Check your site’s performance across devices before publishing.</p>
-                    </li>
-                    <li>
-                        <h3 class="text-2xl font-semibold mb-2">Publish and Promote</h3>
-                        <p class="mb-4">Launch your website and start driving traffic with targeted marketing strategies.</p>
-                    </li>
-                </ol>
-            </section>
-            
-            <Image
-                src="/2.png"
-                alt="A website design"
-                width={300}
-                height={300}
-                className="rounded-md shadow-lg"
-                loading="lazy"
-            />
-            
-            <section>
-                <h2 class="text-3xl font-semibold mb-4">WebLLix Website Design Plan Template</h2>
-                <p class="mb-4">Use this template to outline your website design plan:</p>
-                <div class="bg-gray-700 p-4 mb-4 rounded">
-                    <h3 class="text-2xl font-semibold mb-2">Project Overview</h3>
-                    <p>Project Name: [Your Website’s Name]</p>
-                    <p>Design Style: [Modern/Minimalist/Professional/etc.]</p>
-                    <p>Target Audience: [Demographics]</p>
-                    <p>Features: [Blog/Portfolio/E-commerce/etc.]</p>
-                    <p>Launch Date: [Month, Year]</p>
-                </div>
-            </section>
-            
-            <Image
-                src="/2.png"
+                src="/ecommerce.png"
                 alt="A website design"
                 width={300}
                 height={300}
@@ -715,7 +551,7 @@ export interface Intro {
         `,
         "slug": "best-website-builder",
         "image": "/r4.png",
-        "buyNowLink": "https://webllix.com/signup"
+       
     }
     
   ];

@@ -152,7 +152,7 @@ const Section = () => {
                         </section>
                     </div>
                 </div>
-               
+
 
 
 
@@ -174,10 +174,10 @@ const Section = () => {
                     </div>
                     <div className="mt-8 sm:mt-0 sm:w-1/2 sm:pl-8 flex flex-col items-center sm:items-start text-center sm:text-left">
                         <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-                        Design Smarter, Not Harder: AI-Powered Web Creation
+                            Design Smarter, Not Harder: AI-Powered Web Creation
                         </h1>
                         <p className="text-lg mb-6">
-                        Create stunning websites effortlessly with AI-driven design. Our tools do the heavy lifting, allowing you to focus on your vision and build a site that truly shines.
+                            Create stunning websites effortlessly with AI-driven design. Our tools do the heavy lifting, allowing you to focus on your vision and build a site that truly shines.
                         </p>
                         <div className="flex justify-center sm:justify-start">
                             <button
@@ -292,12 +292,108 @@ const Section = () => {
                         <h1 className="text-4xl font-semibold mb-4">Build Better Faster</h1>
                         <p className="text-lg mb-6">Helps you create high-quality projects quickly and efficiently. We provide tools and strategies to speed up development and get great results without the usual delays. Perfect for anyone looking to work smarter and faster</p>
                         <div className="flex flex-wrap justify-center gap-4">
-                            <a href="/signup" className="bg-yellow-500 text-white px-6 py-3 rounded-full hover:bg-yellow-600 transition duration-200">START FOR FREE</a>
-                            <a href="/UI/gallery/landing-page" className="bg-gray-800 text-white px-6 py-3 rounded-full hover:bg-black transition duration-200">EXPLORE COLLECTIONS</a>
+                            <a href="/signup" className="bg-yellow-500 text-white px-6 py-3 rounded-full hover:bg-yellow-600 transition duration-200">Get Started</a>
+                            <a href="/UI/gallery/landing-page" className="bg-gray-800 text-white px-6 py-3 rounded-full hover:bg-black transition duration-200">Explore</a>
 
                         </div>
                     </div>
                 </div>
+
+                <div className="w-full bg-gradient-to-r from-[#FFE5E5] to-[#FFCCFF] py-12 px-6 sm:px-12">
+                    <div className="max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-start sm:gap-8 bg-white rounded-lg shadow-lg p-8">
+                        <div className="flex-1">
+
+
+                            <div className="relative w-[300px] h-[300px] flex justify-center items-center top-14">
+                                <Image
+                                    src="/carr.png"
+                                    alt="Game Design 1"
+                                    width={150}
+                                    height={150}
+                                    className="absolute rounded-full shadow-lg z-30 transition-transform duration-500 ease-out hover:scale-110"
+                                    style={{ transform: 'rotate(0deg) translate(150px) rotate(0deg)' }}
+                                    loading="lazy"
+                                />
+                                <Image
+                                    src="/cosmetic.png"
+                                    alt="Game Design 2"
+                                    width={150}
+                                    height={150}
+                                    className="absolute rounded-full shadow-lg z-30 transition-transform duration-500 ease-out hover:scale-110"
+                                    style={{ transform: 'rotate(72deg) translate(150px) rotate(-72deg)' }}
+                                    loading="lazy"
+                                />
+                                <Image
+                                    src="/ecommerce.png"
+                                    alt="Game Design 3"
+                                    width={150}
+                                    height={150}
+                                    className="absolute rounded-full shadow-lg z-30 transition-transform duration-500 ease-out hover:scale-110"
+                                    style={{ transform: 'rotate(144deg) translate(150px) rotate(-144deg)' }}
+                                    loading="lazy"
+                                />
+                                <Image
+                                    src="/game.png"
+                                    alt="Game Design 4"
+                                    width={150}
+                                    height={150}
+                                    className="absolute rounded-full shadow-lg z-30 transition-transform duration-500 ease-out hover:scale-110"
+                                    style={{ transform: 'rotate(216deg) translate(150px) rotate(-216deg)' }}
+                                    loading="lazy"
+                                />
+                                <Image
+                                    src="/education.png"
+                                    alt="Game Design 5"
+                                    width={150}
+                                    height={150}
+                                    className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
+                                    style={{ transform: 'rotate(288deg) translate(150px) rotate(-288deg)' }}
+                                    loading="lazy"
+                                />
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+                        <div className="mt-8 sm:mt-0 flex-1">
+                            <h2 className="text-2xl font-bold mb-4">Create Your Free Website with WebLLix </h2>
+                            <p className="text-lg mb-4">
+                                Building your online presence has never been simpler. Follow these easy steps and launch your dream website today:
+                            </p>
+
+                            <h3 className="text-2xl font-semibold mb-2">Select Your Website Builder</h3>
+                            <p className="mb-4">
+                                Kickstart your journey with WebLLix Professional&apos;s cutting-edge platform. Enjoy a seamless experience with our secure, feature-rich website builder designed for both novices and experts.
+                            </p>
+
+                            <h3 className="text-2xl font-semibold mb-2">Design with Ease</h3>
+                            <p className="mb-4">
+                                Input your preferences, and let WebLLix&apos;s AI do the rest. Our AI will design a professional website tailored to your needs, and you&apos;ll receive the complete source code for full control and customization.
+                            </p>
+
+                            <h3 className="text-2xl font-semibold mb-2">Personalize Your Brand</h3>
+                            <p className="mb-4">
+                                Stand out from the crowd by customizing your website with our intuitive drag-and-drop editor. Tailor every aspect—from fonts and colors to images and layouts—to match your brand&apos;s identity.
+                            </p>
+
+
+
+                            <button
+                                type="button"
+                                onClick={() => window.location.href = '/login'}
+                                className="text-white bg-gradient-to-r from-[#FF7F50] to-[#FF6347] hover:from-[#FF6347] hover:to-[#6bd4ec] shadow-lg hover:shadow-xl font-extralight rounded-full text-lg px-12 py-4 transition-transform transform hover:scale-105 duration-300 ease-in-out"
+                            >
+                                Try Free
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
 
 
                 <div className="flex flex-col sm:flex-row">
@@ -359,15 +455,64 @@ const Section = () => {
 
 
             <section id="top" className="bg-gray-100 py-20 px-12 flex items-center">
-                <div className="w-1/2 pr-12">
-                    <Image src="/game.png"
-                        alt="Two women collaborating"
-                        width={300}
-                        height={300}
+                <div className="relative w-full h-[500px] flex justify-center items-center overflow-hidden bg-white rounded-lg shadow-xl p-6">
+                    {/* Card Background */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg opacity-20"></div>
+
+                    {/* Circular Images around the center */}
+                    <Image
+                        src="/carr.png"
+                        alt="Game Design 1"
+                        width={150}
+                        height={150}
+                        className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
+                        style={{ transform: 'rotate(0deg) translate(200px) rotate(-20deg)' }}
                         loading="lazy"
-                        className="rounded-md shadow-lg" />
+                    />
+                    <Image
+                        src="/cosmetic.png"
+                        alt="Game Design 2"
+                        width={150}
+                        height={150}
+                        className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
+                        style={{ transform: 'rotate(72deg) translate(200px) rotate(-100deg)' }}
+                        loading="lazy"
+                    />
+                    <Image
+                        src="/ecommerce.png"
+                        alt="Game Design 3"
+                        width={150}
+                        height={150}
+                        className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
+                        style={{ transform: 'rotate(144deg) translate(200px) rotate(190deg)' }}
+                        loading="lazy"
+                    />
+                    <Image
+                        src="/game.png"
+                        alt="Game Design 4"
+                        width={150}
+                        height={150}
+                        className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
+                        style={{ transform: 'rotate(216deg) translate(200px) rotate(-216deg)' }}
+                        loading="lazy"
+                    />
+                    <Image
+                        src="/carr.png"
+                        alt="Game Design 5"
+                        width={150}
+                        height={150}
+                        className="relative rounded-full shadow-2xl z-50 transition-transform duration-500 ease-out hover:scale-110"
+                        style={{ transform: 'rotate(288deg) translate(200px) rotate(-288deg)' }}
+                        loading="lazy"
+                    />
+
 
                 </div>
+
+
+
+
+
                 <div className="w-1/2">
                     <div className="rotate-wrapper mt-4">
                         <Link href="/UI/gallery/landing-page" className="block hover:rotate-3">
@@ -379,16 +524,16 @@ const Section = () => {
                                 loading="lazy"
                                 className="w-full h-96 object-cover rounded-md"
                             />
-                            <h3 className="font-semibold text-lg mt-4"></h3>
+                            <h3 className="font-semibold text-justify mt-4"> </h3>
                             <p className="text-gray-600 mt-2"></p>
                         </Link>
                     </div>
                     <h1 className="text-4xl font-semibold mb-4"></h1>
-                    <p className="text-lg mb-6">Stay ahead with AI-powered web design,AI Theme generator</p>
+                    <p className="text-lg mb-6">Stay Ahead With AI-Powered Web Design</p>
                     <div className="flex">
-                        <a href="/login" className="bg-yellow-500 text-white px-6 py-3 rounded-full mr-4 hover:bg-yellow-600 transition duration-200">Try free</a>
-                        <a href="#" className="bg-gray-800 text-white px-6 py-3 rounded-full mr-4 hover:bg-black transition duration-200">EXPLORE COLLECTIONS</a>
- 
+                        <a href="/login" className="bg-yellow-500 text-white px-6 py-3 rounded-full mr-4 hover:bg-yellow-600 transition duration-200">Try Free</a>
+                        <a href="/blog" className="bg-gray-800 text-white px-6 py-3 rounded-full mr-4 hover:bg-black transition duration-200">Template</a>
+
                     </div>
                 </div>
             </section>

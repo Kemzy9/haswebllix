@@ -8,12 +8,13 @@ export interface BlogPost {
 
   buyNowLink?: string; // Optional field for the "Buy Now" button
 }
-
+const keywords = ["free ai website", "best ai", "Ai webdesign", "Ai webdesign generator", "drag and drop"];
 export const blogPosts: BlogPost[] = [
+
   {
     "id": 1,
-    "title": "AI Web Design for Games: Design Your Website With in Seconds",
-    "summary": "Create a stunning game website instantly with WebLLix's AI-powered design. Get award-winning, attractive designs in seconds.",
+    "title": `AI Web Design for Games: Design Your Website With in Seconds `,
+    "summary": "Create a stunning game website instantly with WebLLix AI-powered design. Get award-winning, attractive designs in seconds.",
     "content": `
       <nav class="top-nav">
         <!-- Navigation items here -->
@@ -21,7 +22,7 @@ export const blogPosts: BlogPost[] = [
       <article class="container mx-auto p-4">
         <header class="flex items-center mb-6">
           <img src="/emily.png" alt="Profile icon" class="w-12 h-12 rounded-full mr-4" />
-          <h1 class="text-4xl font-bold">Emily</h1>
+          <h1 class="text-2xl font-bold">Emily</h1>
         </header>
         <header>
           <h1 class="text-4xl font-bold mb-4">Design Your Game Website Instantly</h1>
@@ -37,20 +38,31 @@ export const blogPosts: BlogPost[] = [
             <li>Optimized user experience for all devices</li>
             <li>Instant updates and adjustments</li>
           </ul>
-          <div className="w-1/2 pr-12">
+          <div className="w-auto/2 pr-12">
             <Image
               src="/game.png"
               alt="A game design"
-              width={300}
-              height={300}
+              width={200}
+              height={200}
               className="rounded-md shadow-lg"
               loading="lazy"
             />
           </div>
         </section>
         
+        
         <section>
-          <h2 class="text-3xl font-semibold mb-4">Why Choose AI Web Design?</h2>
+          <h2 class="text-3xl font-semibold mb-4">After AI Design your website you also can generate code for responsive website</h2>
+          
+          <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <a href="/blog" class="inline-block px-6 py-3 bg-blue-500 text-white rounded shadow hover:bg-blue-600 transition"></a>
+<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+</svg>
+<span class="sr-only">Icon description</span>
+</button>
+                   
+           <h3 class="text-3xl font-semibold mb-4">Why Choose AI Web Design?</h3>
           <p class="mb-4">AI-driven web design ensures speed, efficiency, and creativity. With WebLLix, you can:</p>
           <ul class="list-disc pl-6 mb-4">
             <li>Create a fully responsive website in minutes</li>
@@ -72,7 +84,7 @@ export const blogPosts: BlogPost[] = [
           <ol class="list-decimal pl-6 mb-4">
             <li>
               <h3 class="text-2xl font-semibold mb-2">Input Your Preferences</h3>
-              <p class="mb-4">Tell the AI what you need—whether it’s a portfolio, eCommerce site, or blog.</p>
+              <p class="mb-4">Tell the AI what you need—whether it&quot;s a portfolio, eCommerce site, or blog.</p>
             </li>
             <li>
               <h3 class="text-2xl font-semibold mb-2">Generate Your Design</h3>
@@ -99,15 +111,15 @@ export const blogPosts: BlogPost[] = [
         </footer>
       </article>
     `,
-    "slug": "Introducing",
-    "image": "/a4.png",
+    "slug": "Introducing-website-builder",
+    "image": "/Aiwebeditory.png",
 
   },
   
   {
     "id": 2,
-    "title": "Best Website Builde greenr",
-    "summary": "WebLLix - Best website builder.",
+    "title": "Best drag and drop website builder Webllix2",
+    "summary": "best website designs by WebLLix - Design webstie.",
     "content": `
     <nav class="top-nav">
         <!-- Navigation items here -->
@@ -128,12 +140,12 @@ export const blogPosts: BlogPost[] = [
             <ul class="list-disc pl-6 mb-4">
                 <li>Customizable design templates</li>
                 <li>Effortless drag-and-drop interface</li>
-                <li>SEO optimization tools</li>
+               
                 <li>Seamless integration with popular platforms</li>
             </ul>
             <div className="w-1/2 pr-12">
                 <Image
-                    src="/a4.png"
+                    src="/Aiwebeditory.png"
                     alt="A website design"
                     width={300}
                     height={300}
@@ -142,19 +154,35 @@ export const blogPosts: BlogPost[] = [
                 />
             </div>
         </section>
+
+
+<a href="/blog" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/a3.png" alt="">
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"AI web design  fo Hotel</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the AI website Design by webllix.</p>
+    </div>
+</a>
+
+
+
+
         
         <section>
             <h2 class="text-3xl font-semibold mb-4">Why Choose WebLLix?</h2>
             <p class="mb-4">WebLLix stands out as the leading website builder due to its user-friendly interface, flexibility, and cutting-edge AI technology that helps you build websites in minutes.</p>
             <ul class="list-disc pl-6 mb-4">
                 <li>Customizable to suit any business needs</li>
-                <li>Boosts your online presence with built-in SEO tools</li>
+           
                 <li>Designed for both beginners and professionals</li>
             </ul>
         </section>
+        <div id="gallery" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+
         
         <Image
-            src="/2.png"
+            src="/code.png"
             alt="A website design"
             width={300}
             height={300}
@@ -166,24 +194,18 @@ export const blogPosts: BlogPost[] = [
             <h2 class="text-3xl font-semibold mb-4">How to Create a Website with WebLLix in 6 Steps</h2>
             <ol class="list-decimal pl-6 mb-4">
                 <li>
-                    <h3 class="text-2xl font-semibold mb-2">Choose a Template</h3>
-                    <p class="mb-4">Select from a variety of professionally designed templates that suit your business or personal needs.</p>
+                    <h3 class="text-2xl font-semibold mb-2">input Preference </h3>
+                    <p class="mb-4">design  a website modern hover colourred mix light and make modern stylish</p>
                 </li>
                 <li>
                     <h3 class="text-2xl font-semibold mb-2">Customize Your Design</h3>
-                    <p class="mb-4">Use WebLLix’s intuitive drag-and-drop editor to adjust the layout, colors, and content.</p>
+                    <p class="mb-4">Use WebLLix intuitive drag-and-drop editor to adjust the layout, colors, and content.</p>
                 </li>
-                <li>
-                    <h3 class="text-2xl font-semibold mb-2">Optimize for SEO</h3>
-                    <p class="mb-4">Ensure your website ranks well in search engines with built-in SEO tools.</p>
-                </li>
-                <li>
-                    <h3 class="text-2xl font-semibold mb-2">Integrate Third-Party Services</h3>
-                    <p class="mb-4">Add e-commerce, social media, or analytics tools to enhance your website’s functionality.</p>
-                </li>
+              
+             
                 <li>
                     <h3 class="text-2xl font-semibold mb-2">Preview and Test</h3>
-                    <p class="mb-4">Check your site’s performance across devices before publishing.</p>
+                    <p class="mb-4">Check your site&quot;s performance across devices before publishing.</p>
                 </li>
                 <li>
                     <h3 class="text-2xl font-semibold mb-2">Publish and Promote</h3>
@@ -192,8 +214,9 @@ export const blogPosts: BlogPost[] = [
             </ol>
         </section>
         
+        
         <Image
-            src="/2.png"
+            src="/a4.png"
             alt="A website design"
             width={300}
             height={300}
@@ -201,121 +224,146 @@ export const blogPosts: BlogPost[] = [
             loading="lazy"
         />
         
-        <section>
-            <h2 class="text-3xl font-semibold mb-4">WebLLix Website Design Plan Template</h2>
-            <p class="mb-4">Use this template to outline your website design plan:</p>
-            <div class="bg-gray-100 p-4 mb-4 rounded">
-                <h3 class="text-2xl font-semibold mb-2">Project Overview</h3>
-                <p>Project Name: [Your Website’s Name]</p>
-                <p>Design Style: [Modern/Minimalist/Professional/etc.]</p>
-                <p>Target Audience: [Demographics]</p>
-                <p>Features: [Blog/Portfolio/E-commerce/etc.]</p>
-                <p>Launch Date: [Month, Year]</p>
-            </div>
-        </section>
         
-        <Image
-            src="/2.png"
-            alt="A website design"
-            width={300}
-            height={300}
-            className="rounded-md shadow-lg"
-            loading="lazy"
-        />
+        
+      
         
         <footer class="mt-8">
             <p class="mb-4">Ready to design your website with WebLLix? Explore our comprehensive guide and get started today.</p>
             <a href="https://webllix.com/signup" class="inline-block px-6 py-3 bg-blue-500 text-white rounded shadow hover:bg-blue-600 transition">Get Started</a>
         </footer>
+        
     </article>
     `,
-    "slug": "best-website-builder",
-    "image": "/r4.png",
-    "buyNowLink": "https://webllix.com/signup"
+    "slug": "drag-and-drop-website-builder",
+    "image": "/profile.png",
+   
 },
   {
     id: 3,
-    title: "best website design company green ",
+    title: "Best website design portfolio ",
     summary:
       "Explore how to start an architecture business and strategies for revenue generation in the architecture industry.",
     content: `
-   <nav class="top-nav">
-  <!-- Navigation items here -->
-</nav>
-<article class="container mx-auto  bg-indigo-400 p-4">
-  <header class="flex items-center mb-6">
-    <img src="/emily.png" alt="Profile icon" class="w-12 h-12 rounded-full mr-4" />
-    <h1 class="text-4xl font-bold">Emily</h1>
-  </header>
-  <header>
-    <h1 class="text-4xl font-bold mb-4">Why WebLLix is the Best Website Design Company</h1>
-    <p class="text-lg mb-6">WebLLix has consistently delivered top-tier website designs that blend creativity with functionality. Here’s why I consider them the best in the business.</p>
-  </header>
-  
-  <section>
-    <h2 class="text-3xl font-semibold mb-4">What Makes WebLLix Stand Out?</h2>
-    <p class="mb-4">WebLLix excels in creating stunning websites that are not only visually appealing but also user-friendly. Their services include:</p>
-    <ul class="list-disc pl-6 mb-4">
-      <li>Custom website design tailored to your brand</li>
-      <li>SEO optimization for higher search rankings</li>
-      <li>Responsive designs for all devices</li>
-      <li>Comprehensive support and maintenance</li>
-    </ul>
-    <div class="w-1/2 pr-12">
-      <img src="/carr.png" alt="A game design" class="rounded-md shadow-lg" loading="lazy" />
-    </div>
-  </section>
-  
-  <section>
-    <h2 class="text-3xl font-semibold mb-4">Why Choose WebLLix?</h2>
-    <p class="mb-4">WebLLix isn’t just about beautiful designs; they understand the need for websites that drive results. Their approach offers:</p>
-    <ul class="list-disc pl-6 mb-4">
-      <li>Innovative designs that capture your brands essence</li>
-      <li>Strategic insights for better online visibility</li>
-      <li>A collaborative process with a focus on client satisfaction</li>
-    </ul>
-  </section>
-  <img src="/carr-ai-webedesign.png" alt="carr-web-design" class="rounded-md shadow-lg" loading="lazy" />
-  
-  <section>
-    <h2 class="text-3xl font-semibold mb-4">How WebLLix Helps You Succeed</h2>
-    <ol class="list-decimal pl-6 mb-4">
-      <li>
-        <h3 class="text-2xl font-semibold mb-2">Comprehensive Design Process</h3>
-        <p class="mb-4">WebLLix starts with a detailed consultation to understand your needs, followed by a design that’s both unique and effective.</p>
-      </li>
-      <li>
-        <h3 class="text-2xl font-semibold mb-2">Expert Team of Designers</h3>
-        <p class="mb-4">Their team comprises experts who are passionate about design and stay ahead of industry trends.</p>
-      </li>
-      <li>
-        <h3 class="text-2xl font-semibold mb-2">Commitment to Quality</h3>
-        <p class="mb-4">Every website is built with meticulous attention to detail, ensuring a flawless user experience.</p>
-      </li>
-    </ol>
-  </section>
-  
-  <section>
-    <h2 class="text-3xl font-semibold mb-4">Client Testimonials</h2>
-    <p class="mb-4">WebLLix has a proven track record of success, with countless satisfied clients who have seen real results from their services.</p>
-  </section>
-  
-  <footer class="mt-8">
-    <p class="mb-4">Ready to elevate your online presence? Discover how WebLLix can transform your website with cutting-edge design.</p>
-    <a href="https://example.com/buy-webllix-guide" class="inline-block px-6 py-3 bg-blue-500 text-white rounded shadow hover:bg-blue-600 transition">Get Started</a>
-  </footer>
-</article>
-  `,
-    slug: "starting-an-architecture-business",
-    image: "/archo.png",
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why WebLLix is the Best Website Design Company</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100">
 
-    buyNowLink: "https://example.com/buy-architecture-business-guide", // Add a buy now link
+  <!-- Navigation -->
+  <nav class="top-nav bg-blue-500 text-white p-4">
+    <!-- Navigation items here -->
+  </nav>
+
+  <!-- Main Content -->
+  <article class="container mx-auto p-4">
+    <!-- Author Header -->
+    <header class="flex items-center mb-6">
+      <img src="/leelu.png" alt="Profile icon" class="w-12 h-12 rounded-full mr-4" />
+      <h1 class="text-xl font-bold">Lelu</h1>
+    </header>
+
+    <!-- Blog Title and Introduction -->
+    <header>
+      <h1 class="text-4xl font-bold mb-4">Why WebLLix is the Best Website Design Company</h1>
+      <p class="text-lg mb-6">Looking for a website that not only looks stunning but also works flawlessly? WebLLix is your go-to solution. They bring together creativity and functionality to create websites that make an impact.</p>
+    </header>
+
+    <!-- What Makes WebLLix Stand Out -->
+    <section>
+      <h2 class="text-3xl font-semibold mb-4">What Makes WebLLix Stand Out?</h2>
+      <p class="mb-4">WebLLix is all about creating websites that aren’t just pretty but also user-friendly and effective. Here’s what you can expect from them:</p>
+      <ul class="list-disc pl-6 mb-4">
+        <li>Custom designs that perfectly match your brand's identity.</li>
+
+        <li>Responsive designs ensuring a great experience on any device.</li>
+        <li>Ongoing support to keep everything running smoothly.</li>
+      </ul>
+      <div class="w-full md:w-1/2 pr-12 mb-4">
+        <img src="/carr.png" alt="Website design example" class="rounded-md shadow-lg" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- Why Choose WebLLix -->
+    <section>
+      <h2 class="text-3xl font-semibold mb-4">Why Choose WebLLix?</h2>
+      <p class="mb-4">WebLLix isn’t just about creating beautiful websites. They focus on delivering results and understanding your business needs. Here’s why they are a great choice:</p>
+      <ul class="list-disc pl-6 mb-4">
+        <li>Designs that capture your brand’s unique essence.</li>
+        <li>Strategic insights to enhance your online presence.</li>
+        <li>A collaborative approach to ensure your vision is realized.</li>
+      </ul>
+    </section>
+
+    <!-- Additional Design Example -->
+    <img src="/carr-ai-webedesign.png" alt="Website design example" width="auto" height="200" class="rounded-md shadow-lg mb-4" loading="lazy" />
+
+    <!-- Architecture Image -->
+    <section>
+      <h2 class="text-3xl font-semibold mb-4">Showcase of Architecture Design</h2>
+      <p class="mb-4">In addition to exceptional web design, WebLLix also excels in architecture design, showcasing their versatility in delivering stunning and functional designs across various fields.</p>
+      <div class="w-full md:w-1/2 pr-12 mb-4">
+        <img src="/archit.png" alt="Architecture design example" class="rounded-md shadow-lg" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- Additional Cosmetic Image -->
+    <section>
+      <h2 class="text-3xl font-semibold mb-4">Additional Design Examples</h2>
+      <p class="mb-4">WebLLix’s design portfolio extends beyond web and architecture to include other innovative design solutions. Check out this example:</p>
+      <div class="w-full md:w-1/2 pr-12 mb-4">
+        <img src="/cosmetic.png" alt="Cosmetic design example" class="rounded-md shadow-lg" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- How WebLLix AI Empowers Your Web Design -->
+<section>
+  <h2 class="text-3xl font-semibold mb-4">How WebLLix AI Empowers Your Web Design</h2>
+  <ol class="list-decimal pl-6 mb-4">
+    <li>
+      <h3 class="text-2xl font-semibold mb-2">AI-Powered Design Process</h3>
+      <p class="mb-4">WebLLix AI begins with advanced algorithms that analyze your preferences and requirements to create a unique and effective web design.</p>
+    </li>
+    <li>
+      <h3 class="text-2xl font-semibold mb-2">Smart, Adaptive Design Solutions</h3>
+      <p class="mb-4">Our AI adapts to the latest design trends and user feedback, continuously improving and refining your website for optimal performance.</p>
+    </li>
+    <li>
+      <h3 class="text-2xl font-semibold mb-2">Commitment to Innovation</h3>
+      <p class="mb-4">With a focus on cutting-edge technology, WebLLix AI ensures your website stands out with innovative design elements and a seamless user experience.</p>
+    </li>
+  </ol>
+</section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="mt-8">
+      <p class="mb-4">Ready to take your online presence to the next level? Discover how WebLLix can transform your website with their cutting-edge design solutions.</p>
+      <a href="https://webllix.com/Signup" class="inline-block px-6 py-3 bg-blue-500 text-white rounded shadow hover:bg-blue-600 transition">Get Started</a>
+    </footer>
+  </article>
+
+</body>
+</html>
+
+  `,
+    slug: "best-website-design-portfolio",
+    image: "/hotel-ai-web.png",
+
+   // Add a buy now link
   },
 
 
   {
     id: 4,
-    title: "Introducing AI  WebLLix ",
+    title: "Build Responsive website with in second with latest AI model ",
     summary:
       "Explore how AI is revolutionizing web design with WebLLix. Create stunning, responsive websites with ease.",
     content: `
@@ -323,8 +371,16 @@ export const blogPosts: BlogPost[] = [
         <!-- Navigation items here -->
       </nav>
 
-      
+      <div class= "text-sky-400 from-neutral-400 first-line:marker:">
+                      <h1 class="text-5xl font-extrabold mb-6 text-black-100">How AI is Revolutionizing Web Design</h1>
       Prompt> create a clean modern, and engaging landing page for saas platform that offer ai powered customer support chatbots for ecommerce website the design should emphasiz efficency reliablity and cutting edge technolgy.
+
+
+
+      
+
+</div>
+
 
 
       <meta charset="UTF-8">
@@ -546,7 +602,7 @@ export const blogPosts: BlogPost[] = [
 <section class="robot-section" style="">
   <div style="">
       <h2 style="">Automated Support</h2><img src="https://drive.google.com/file/d/1K5yxppMcalxkXZkVKUdVM7qHuQpIof8r/view?usp=drive_link" alt="Incoming Image 1" class="w-full rounded-md">
-      <p style="">Webllix provides instant responses to common customer queries, reducing the workload on your support team. It’s like having a 24/7 customer service agent that <span style="font-family: &quot;Times New Roman&quot;, Times, serif;">never sleeps.</span></p>
+      <p style="">Webllix provides instant responses to common customer queries, reducing the workload on your support team. It&quot;s like having a 24/7 customer service agent that <span style="font-family: &quot;Times New Roman&quot;, Times, serif;">never sleeps.</span></p>
   </div>
   <div style="">
       <h2 style="">Personalized Shopping</h2><br><img src="https://replicate.delivery/yhqm/wBrfqlboHTzLWqi2zwgamvEuN1Akh2rw3Em0YIvetouJnXUTA/out-0.webp" alt="Incoming Image 1" class="w-full rounded-md">
@@ -558,7 +614,7 @@ export const blogPosts: BlogPost[] = [
   </div>
   <div style="">
       <h2 style="">Analytics and Insights</h2>
-      <p style="">Gain valuable insights into customer behavior with webllix’s comprehensive analytics. Understand your audience better and optimize your sales strategies for maximum impact.</p>
+      <p style="">Gain valuable insights into customer behavior with webllix comprehensive analytics. Understand your audience better and optimize your sales strategies for maximum impact.</p>
   </div>
 </section>
 
@@ -649,7 +705,7 @@ export const blogPosts: BlogPost[] = [
       <p>webllix offers 24/7 customer support via chat and email. We also provide detailed documentation and tutorials to help you get the most out of the platform.</p>
 
       <h3>Can webllix scale with my business as it grows?</h3>
-      <p>Absolutely. webllix is designed to be scalable, making it suitable for businesses of all sizes. You can customize the chatbot’s functionalities to meet your specific needs.</p>
+      <p>Absolutely. webllix is designed to be scalable, making it suitable for businesses of all sizes. You can customize the chatbot&quot;s functionalities to meet your specific needs.</p>
   </div>
 </section>
 
@@ -658,7 +714,7 @@ export const blogPosts: BlogPost[] = [
 </footer>
       <article class="bg-white text-black">
         <header>
-          <h1 class="text-5xl font-extrabold mb-6 text-black-100">How AI is Revolutionizing Web Design</h1>
+
           <p class="text-xl mb-8 text-black-300">Discover how AI is transforming the web design process, making it accessible for everyone, from beginners to professionals.</p>
           <p class="text-xl mb-8 text-black-300">Just input preference and lets Webllix design website for you.</p>
         </header>
@@ -719,7 +775,7 @@ export const blogPosts: BlogPost[] = [
           <ol class="list-decimal pl-8 mb-6 text-black-300">
             <li class="mb-4">
               <h3 class="text-3xl font-semibold mb-3 text-black-100">Sign Up</h3>
-                    <a href="https://example.com/buy-ai-web-design-guide" type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Sign Up</a>
+                    <a href="https://webllix.com/signup" type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Sign Up</a>
               <p>Join WebLLix and get instant access to webllix. Start designing your website today.</p>
             </li>
             <li class="mb-4">
@@ -749,14 +805,14 @@ export const blogPosts: BlogPost[] = [
 
         <footer class="mt-12 text-center">
           <p class="mb-6 text-xl text-black-100">Ready to revolutionize your web design process? Experience the power of AI with webllix today.</p>
-          <a href="https://example.com/buy-ai-web-design-guide" class="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">Sign Up</a>
+
         </footer>
       </article>
       <span style="color: rgb(137, 11, 11);"></span>
     
     `,
     slug: "ai-web-design",
-    image: "/AI-website -for-saas.png",
+    image: "/archit.png",
    
   },
 

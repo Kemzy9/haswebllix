@@ -33,7 +33,7 @@ export default function SignupPage() {
             setLoading(true)
             await axios.post("/api/users/signup", user)
             toast.success("Signup successful")
-            toast("Please check your inbox and click on the verification link.", { duration: 10000 })
+            toast("Congratulations! Your Account Setup Is Complete ,Log in In and Explore ", { duration: 10000 })
             router.push("/login")
         } catch (error: any) {
             toast.error(error.message)

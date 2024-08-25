@@ -1,5 +1,0 @@
-MONGO_URI= "Your Mongo DB Connection String"
-TOKEN_SECRET= "Your Token Secret"
-DOMAIN= "Your Domain"
-MAILTRAP_USER=" Mailtrap user id "
-MAILTRAP_PASS=" Mailtrap password "

@@ -1,0 +1,8 @@
+# robots.txt
+
+User-agent: *
+Disallow: /admin/
+Disallow: /secret-page/
+Allow: /
+
+Sitemap: https://www.webllix.com/sitemap.xml

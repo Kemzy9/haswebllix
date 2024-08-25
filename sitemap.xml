@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.webllix.com/</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+
+
+  <url>
+    <loc>https://www.webllix.com/Ai-webdesign</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/api/users/forgotpassword</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/api/users/generate</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/api/users/login</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/api/users/logout</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/api/users/me</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/api/users/passwordreset</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/api/users/signup</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/api/users/verifyemail</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/blog</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/blog/[slug]</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/forgotpassword</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/login</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/passwordreset</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/PrivacyPolicy</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/profile</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/profile/[id]</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/RefundPolicy</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/search-result</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/signup</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/TermsAndConditions</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/blog</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/code</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/faq</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/footer</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/gallery/landing-page</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/gallery/web-design</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/head</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/Hero</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/logo</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/Nav</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/section/sectionA</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/UI/support</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.75</priority>
+  </url>
+
+
+
+  <url>
+    <loc>https://www.webllix.com/UI/webllix</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.webllix.com/verifyemail</loc>
+    <lastmod>2024-08-24</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+</urlset>

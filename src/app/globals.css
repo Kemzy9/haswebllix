@@ -117,3 +117,152 @@ button.text-white {
 }
 
 
+
+
+
+
+
+
+
+
+
+/* General mobile styles for screens 320px or smaller */
+@media (max-width: 320px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+
+  .your-class {
+    max-width: 100%;
+    width: 100%; /* Ensure it takes full width of its container */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
+}
+
+/* Prevent horizontal scrolling on all screen sizes */
+body {
+  overflow-x: hidden;
+}
+
+/* Ensure that .your-class adapts to its container properly */
+.your-class {
+  max-width: 100%;
+  width: auto; /* Adjust width based on content */
+}
+
+
+
+
+
+
+.hero {
+  height: 60vh; /* Use a relative height for better mobile scaling */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 1.5rem; /* Adjust heading size for mobile */
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1rem; /* Adjust paragraph size for readability */
+}
+
+.hero .cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+
+.head {
+  padding: 20px;
+  text-align: center;
+}
+
+.head h1 {
+  font-size: 2rem; /* Large, but scalable for mobile */
+  margin-bottom: 10px;
+}
+
+.head p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 320px) {
+  .head h1 {
+    font-size: 1.5rem;
+  }
+
+  .head p {
+    font-size: 0.875rem;
+  }
+}
+
+
+
+
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.footer nav {
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 5px 0;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer .social-icons a {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 320px) {
+  .footer {
+    padding: 10px;
+  }
+
+  .footer ul li a {
+    font-size: 0.875rem;
+  }
+
+  .footer .social-icons a {
+    font-size: 1.25rem;
+  }
+}

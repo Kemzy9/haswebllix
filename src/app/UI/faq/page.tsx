@@ -18,7 +18,7 @@ const FrequentlyAsk = () => {
                     <div className="py-5">
                         <details className="group">
                             <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                                <span> Can I get Code and Editor ?</span>
+                                <span> Can I get Source Code ?</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shapeRendering="geometricPrecision"
                                         stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -27,7 +27,7 @@ const FrequentlyAsk = () => {
                                     </svg>
                                 </span>
                             </summary>
-                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes, Webllix has  designed to be both powerful and user-friendly , Whether you are creating a personal blog, an online store, or a corporate site, Webllix design Website  and get code or make more modern to use web builer customize,layout colours and content , AI Image generate to use in your website
+                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes, Webllix has  designed to be both powerful and user-friendly , Whether you are creating a personal blog, an online store, or a corporate site, Webllix design Website  and get code or make more modern to use web builder customize,layout colours and content , AI Image generate to use in your website to make more elegant
                             </p>
                         </details>
                     </div>
@@ -86,7 +86,7 @@ const FrequentlyAsk = () => {
                     <div className="py-5">
                         <details className="group">
                             <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                                <span> Can I build  functional website  ?</span>
+                                <span> Can I build  responsive website  ?</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shapeRendering="geometricPrecision"
                                         stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -95,7 +95,7 @@ const FrequentlyAsk = () => {
                                     </svg>
                                 </span>
                             </summary>
-                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes ,Webllix Design website based on your preference and  webllix wwill generate code .
+                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes ,Webllix Design a website based input preference and  after Webllix generate code  .
                             </p>
                         </details>
                     </div>
