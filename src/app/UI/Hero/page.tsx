@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
                 <nav className={`fixed inset-0 bg-gray-800 bg-opacity-75 z-50 transform ${menuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 md:relative md:flex md:items-center md:justify-between md:bg-transparent md:bg-opacity-100`}>
                     <ul className="flex flex-col items-center md:flex-row md:space-x-6 mt-16 md:mt-0">
                         <li><a href="/" className="text-white text-xl p-4">Home</a></li>
-                        <li><a href="/ab" className="text-white text-xl p-4">Blog</a></li>
+                        <li><a href="/blog" className="text-white text-xl p-4">Blog</a></li>
                         <li><a href="/login" className="text-white text-xl p-4">Login</a></li>
                     </ul>
                 </nav>

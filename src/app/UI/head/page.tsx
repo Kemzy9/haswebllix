@@ -307,7 +307,7 @@ const Section = () => {
                             <div className="relative w-[300px] h-[300px] flex justify-center items-center top-14">
                                 <Image
                                     src="/carr.png"
-                                    alt="Game Design 1"
+                                    alt="Car-AI-web-design"
                                     width={150}
                                     height={150}
                                     className="absolute rounded-full shadow-lg z-30 transition-transform duration-500 ease-out hover:scale-110"
@@ -316,7 +316,7 @@ const Section = () => {
                                 />
                                 <Image
                                     src="/cosmetic.png"
-                                    alt="Game Design 2"
+                                    alt="Cosmetic-AI-web-desing"
                                     width={150}
                                     height={150}
                                     className="absolute rounded-full shadow-lg z-30 transition-transform duration-500 ease-out hover:scale-110"
@@ -325,7 +325,7 @@ const Section = () => {
                                 />
                                 <Image
                                     src="/ecommerce.png"
-                                    alt="Game Design 3"
+                                    alt="Ecommerce-Ai-Web-design"
                                     width={150}
                                     height={150}
                                     className="absolute rounded-full shadow-lg z-30 transition-transform duration-500 ease-out hover:scale-110"
@@ -334,7 +334,7 @@ const Section = () => {
                                 />
                                 <Image
                                     src="/game.png"
-                                    alt="Game Design 4"
+                                    alt="AI-game-web-design"
                                     width={150}
                                     height={150}
                                     className="absolute rounded-full shadow-lg z-30 transition-transform duration-500 ease-out hover:scale-110"
@@ -343,7 +343,7 @@ const Section = () => {
                                 />
                                 <Image
                                     src="/education.png"
-                                    alt="Game Design 5"
+                                    alt="education-Ai-web-design"
                                     width={150}
                                     height={150}
                                     className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
@@ -461,50 +461,50 @@ const Section = () => {
 
                     {/* Circular Images around the center */}
                     <Image
-                        src="/carr.png"
-                        alt="Game Design 1"
-                        width={150}
-                        height={150}
-                        className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
-                        style={{ transform: 'rotate(0deg) translate(200px) rotate(-20deg)' }}
-                        loading="lazy"
-                    />
-                    <Image
-                        src="/cosmetic.png"
-                        alt="Game Design 2"
-                        width={150}
-                        height={150}
-                        className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
-                        style={{ transform: 'rotate(72deg) translate(200px) rotate(-100deg)' }}
-                        loading="lazy"
-                    />
-                    <Image
-                        src="/ecommerce.png"
-                        alt="Game Design 3"
-                        width={150}
-                        height={150}
-                        className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
-                        style={{ transform: 'rotate(144deg) translate(200px) rotate(190deg)' }}
-                        loading="lazy"
-                    />
-                    <Image
-                        src="/game.png"
-                        alt="Game Design 4"
-                        width={150}
-                        height={150}
-                        className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
-                        style={{ transform: 'rotate(216deg) translate(200px) rotate(-216deg)' }}
-                        loading="lazy"
-                    />
-                    <Image
-                        src="/carr.png"
-                        alt="Game Design 5"
-                        width={150}
-                        height={150}
-                        className="relative rounded-full shadow-2xl z-50 transition-transform duration-500 ease-out hover:scale-110"
-                        style={{ transform: 'rotate(288deg) translate(200px) rotate(-288deg)' }}
-                        loading="lazy"
-                    />
+    src="/carr.png"
+    alt="Car-AI-web-design-latest"
+    width={150}
+    height={150}
+    className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
+    style={{ width: '150px', height: 'auto', transform: 'rotate(0deg) translate(200px) rotate(-20deg)' }}
+    loading="lazy"
+  />
+  <Image
+    src="/cosmetic.png"
+    alt="Cosmetic-AI-web-desing-latest"
+    width={150}
+    height={150}
+    className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
+    style={{ width: '150px', height: 'auto', transform: 'rotate(72deg) translate(200px) rotate(-100deg)' }}
+    loading="lazy"
+  />
+  <Image
+    src="/ecommerce.png"
+    alt="Ecommerce-Ai-Web-design-latest"
+    width={150}
+    height={150}
+    className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
+    style={{ width: '150px', height: 'auto', transform: 'rotate(144deg) translate(200px) rotate(190deg)' }}
+    loading="lazy"
+  />
+  <Image
+    src="/game.png"
+    alt="AI-game-web-design-latest"
+    width={150}
+    height={150}
+    className="absolute rounded-full shadow-xl z-40 transition-transform duration-500 ease-out hover:scale-110"
+    style={{ width: '150px', height: 'auto', transform: 'rotate(216deg) translate(200px) rotate(-216deg)' }}
+    loading="lazy"
+  />
+  <Image
+    src="/carr.png"
+    alt="AI-game-web-desig-latest"
+    width={150}
+    height={150}
+    className="relative rounded-full shadow-2xl z-50 transition-transform duration-500 ease-out hover:scale-110"
+    style={{ width: '150px', height: 'auto', transform: 'rotate(288deg) translate(200px) rotate(-288deg)' }}
+    loading="lazy"
+  />
 
 
                 </div>
