@@ -18,7 +18,7 @@ const FrequentlyAsk = () => {
                     <div className="py-5">
                         <details className="group">
                             <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                                <span> Why Choose Our AI Web Design Tool Webllix?</span>
+                                <span> Can I get Code and Editor ?</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shapeRendering="geometricPrecision"
                                         stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -27,14 +27,14 @@ const FrequentlyAsk = () => {
                                     </svg>
                                 </span>
                             </summary>
-                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Our tool is designed to be both powerful and user-friendly, offering free access to advanced AI technology that simplifies the web design process. Whether you are creating a personal blog, an online store, or a corporate site, our AI web design generator has you covered
+                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes, Webllix has  designed to be both powerful and user-friendly , Whether you are creating a personal blog, an online store, or a corporate site, Webllix design Website  and get code or make more modern to use web builer customize,layout colours and content , AI Image generate to use in your website
                             </p>
                         </details>
                     </div>
                     <div className="py-5">
                         <details className="group">
                             <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                                <span> Can I use the AI webllix design generator for free?</span>
+                                <span> Can I use Webllix  free?</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shapeRendering="geometricPrecision"
                                         stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -43,7 +43,7 @@ const FrequentlyAsk = () => {
                                     </svg>
                                 </span>
                             </summary>
-                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes! Our AI web design generator is free to use with limit.
+                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes! webllix is free to use with limit.
                             </p>
                         </details>
                     </div>
@@ -63,7 +63,7 @@ const FrequentlyAsk = () => {
                             <a className="text-blue-500 hover:underline" href="/UI/gallery/landing-page">Collection</a>
 
                          
-                            You can create any kind of website, from simple landing pages to complex e-commerce sites, using our AI tools.
+                        Webllix can create any type  of website, from simple landing pages to complex e-commerce sites, .
                             <a className="text-blue-500 hover:underline" href="">PREMIUM plan.</a>
                         </details>
                     </div>
@@ -86,7 +86,7 @@ const FrequentlyAsk = () => {
                     <div className="py-5">
                         <details className="group">
                             <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                                <span> Can we build  functional website  ?</span>
+                                <span> Can I build  functional website  ?</span>
                                 <span className="transition group-open:rotate-180">
                                     <svg fill="none" height="24" shapeRendering="geometricPrecision"
                                         stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
@@ -95,7 +95,7 @@ const FrequentlyAsk = () => {
                                     </svg>
                                 </span>
                             </summary>
-                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">We are working on it . Sigup-up for stay updated 
+                            <p className="group-open:animate-fadeIn mt-3 text-neutral-600">Yes ,Webllix Design website based on your preference and  webllix wwill generate code .
                             </p>
                         </details>
                     </div>

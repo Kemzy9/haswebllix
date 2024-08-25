@@ -383,8 +383,8 @@ const Section = () => {
                             <p className="text-gray-600 mt-2"></p>
                         </Link>
                     </div>
-                    <h1 className="text-4xl font-semibold mb-4">Generate Theme</h1>
-                    <p className="text-lg mb-6">Stay ahead with AI-powered web design</p>
+                    <h1 className="text-4xl font-semibold mb-4"></h1>
+                    <p className="text-lg mb-6">Stay ahead with AI-powered web design,AI Theme generator</p>
                     <div className="flex">
                         <a href="/login" className="bg-yellow-500 text-white px-6 py-3 rounded-full mr-4 hover:bg-yellow-600 transition duration-200">Try free</a>
                         <a href="#" className="bg-gray-800 text-white px-6 py-3 rounded-full mr-4 hover:bg-black transition duration-200">EXPLORE COLLECTIONS</a>

@@ -132,82 +132,62 @@ const SearchResultsPage: React.FC = () => {
                                     <a href="" className="text-lg font-semibold text-blue-600 hover:text-blue-800 hover:underline hover:bg-blue-50 p-2 rounded-md transition-colors duration-300">
                                         E-commerce
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-yellow-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                               
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-green-600 hover:text-green-800 hover:underline hover:bg-green-50 p-2 rounded-md transition-colors duration-300">
                                         Educational
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-pink-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                               
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-red-600 hover:text-red-800 hover:underline hover:bg-red-50 p-2 rounded-md transition-colors duration-300">
                                         Forum
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-purple-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                                   
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-purple-600 hover:text-purple-800 hover:underline hover:bg-purple-50 p-2 rounded-md transition-colors duration-300">
                                         Social Media
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-teal-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                            
                                 </li>
                                 
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-blue-600 hover:text-blue-800 hover:underline hover:bg-blue-50 p-2 rounded-md transition-colors duration-300">
                                         Hotel
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-yellow-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                                   
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-green-600 hover:text-green-800 hover:underline hover:bg-green-50 p-2 rounded-md transition-colors duration-300">
                                         Digital Product
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-pink-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                                  
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-purple-600 hover:text-purple-800 hover:underline hover:bg-purple-50 p-2 rounded-md transition-colors duration-300">
                                         Gaming
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-teal-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                                
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-red-600 hover:text-red-800 hover:underline hover:bg-red-50 p-2 rounded-md transition-colors duration-300">
                                         Creative
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-purple-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                                 
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-purple-600 hover:text-purple-800 hover:underline hover:bg-purple-50 p-2 rounded-md transition-colors duration-300">
                                         Fitness
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-teal-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                            
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-red-600 hover:text-red-800 hover:underline hover:bg-red-50 p-2 rounded-md transition-colors duration-300">
                                         Sports
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-purple-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                                
                                 </li>
 
 
@@ -216,17 +196,13 @@ const SearchResultsPage: React.FC = () => {
                                     <a href="" className="text-lg font-semibold text-green-600 hover:text-green-800 hover:underline hover:bg-green-50 p-2 rounded-md transition-colors duration-300">
                                         Freelancer Portfolio
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-pink-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                                 
                                 </li>
                                 <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                     <a href="" className="text-lg font-semibold text-blue-600 hover:text-blue-800 hover:underline hover:bg-blue-50 p-2 rounded-md transition-colors duration-300">
                                         Consulting
                                     </a>
-                                    <span className="text-sm font-medium text-gray-500 bg-yellow-200 px-2 py-1 rounded-full">
-                                        Upcoming
-                                    </span>
+                                   
                                 </li>
                                 
 

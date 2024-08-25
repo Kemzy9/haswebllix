@@ -3,16 +3,16 @@ import Logo from "@/app/UI/logo/page";
 
 const Footer = () => {
   return (
-    <footer className="px-8 divide-y bg-gray-800 text-black">
+    <footer className="px-8 divide-y bg-white text-black">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="flex items-center space-x-4">
           <Logo />
-          <span className="ml-2 text-white text-2xl font-semibold">WᴇʙʟLIx</span>
+          <span className="ml-2 text-black text-2xl font-semibold">WᴇʙʟLix</span>
         </div>
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
           <div className="space-y-3">
             <h3 className="uppercase dark:text-gray-50">Product</h3>
-            <ul className="space-y-1 text-white">
+            <ul className="space-y-1 text-black">
               <li>
                 <a rel="noopener noreferrer" href="#">Features</a>
               </li>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className="space-y-3">
             <h3 className="uppercase dark:text-gray-50">Company</h3>
-            <ul className="space-y-1 text-white">
+            <ul className="space-y-1 text-black">
               <li>
                 <a rel="noopener noreferrer" href="/PrivacyPolicy">Privacy</a>
               </li>
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
           <div className="space-y-3">
             <h3 className="uppercase dark:text-gray-50">Developers</h3>
-            <ul className="space-y-1 text-white">
+            <ul className="space-y-1 text-black">
               <li>
                 <a rel="noopener noreferrer" href="#">Public API</a>
               </li>
@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
           <div className="space-y-3">
             <div className="uppercase dark:text-gray-50">Social Media</div>
-            <div className="flex justify-start space-x-3 text-white">
+            <div className="flex justify-start space-x-3 text-black">
               <a
                 rel="noopener noreferrer"
                 href="#"
@@ -106,7 +106,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-6 text-sm text-center text-white">
+      <div className="py-6 text-sm text-center text-black">
         © {new Date().getFullYear()} Webllix. All rights reserved.
       </div>
     </footer>

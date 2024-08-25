@@ -4,27 +4,15 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import Head from 'next/head';
 
-interface Logo {
-    name: string;
-    icon: string;
-    url: string;
-    alt: string;
-    size: number;
-    quality?: number;
-}
+
 
 interface Business {
     name: string;
 }
 
 const Hero: React.FC = () => {
-    // State variables for logo and business
-
-
-
-
     return (
-        <div className="min-h-screen bg-gray-900 ">
+        <div className="min-h-screen bg-gray-900  container mx-auto  p-4  ">
             <Head>
                 <title>Webllix AI Website Design</title>
                 <meta name="description" content="Design Custom Website with Ai " />

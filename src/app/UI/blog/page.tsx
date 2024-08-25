@@ -26,6 +26,9 @@ const SearchResult: React.FC<SearchResultProps> = ({ title, url, description, im
                 src={imageUrl}
                 alt={title}
                 className="w-24 h-24 object-cover mr-4 rounded-lg"
+                width={500}
+                height={300}
+                loading="lazy"
             />
             <div>
                 <h2 itemProp="headline">
@@ -45,36 +48,36 @@ const SearchResult: React.FC<SearchResultProps> = ({ title, url, description, im
     );
 };
 
-const SearchResultsPage: React.FC = () => {
+const Aiwebdesign: React.FC = () => {
     const [selectedUrl, setSelectedUrl] = useState<string | null>(null);
     const [showImage, setShowImage] = useState<boolean>(false);
     const [searchKeyword, setSearchKeyword] = useState<string>('');
-
+    const keyword= ["Ai webdesign", "Ai webdesign generator",  "Education", "Architecture", "Yacht", "Cosmetics"];
 
 
 
     const results = [
         {
-            title: 'Modern Landing Page Education',
-            url: 'https://www.Webllix.com/',
+            title: `${keyword} AI web templates by webllix`,
+            url: 'https://www.webllix.com/',
             description: 'Explore the latest trends in landing page designs for 2024. Get inspired by modern and minimalist designs that captivate users.',
             imageUrl: '/education.png', 
         },
         {
-            title: 'Landing page design by Ai Webllix for Architecture',
-            url: 'https://www.Webllix.com/',
+            title: `${keyword} Landing page design by webllix `,
+            url: 'https://www.webllix.com/',
             description: 'Learn how to customize your landing page effectively to increase user engagement and conversions. Practical tips for a standout design.',
             imageUrl: '/archit.png', 
         },
         {
-            title: 'Modern Landing Page yacht selling',
-            url: 'https://www.webblix.com/',
+            title: `${keyword} Modern AI Landing Page for Yacht Selling`,
+            url: 'https://www.webllix.com/',
             description: 'Explore the latest trends in landing page designs for 2024. Get inspired by modern and minimalist designs that captivate users.',
             imageUrl: '/yacht.png', 
         },
         {
-            title: 'Top Customization Tips for Your Landing Page Modern Landing Page Cosmetic',
-            url: 'https://www.Webllix.com/',
+            title: `${keyword} Top Customization Tips for Your Landing Page - Modern Landing Page for Cosmetics`,
+            url: 'https://www.webllix.com/',
             description: 'Learn how to customize your landing page effectively to increase user engagement and conversions. Practical tips for a standout design.',
             imageUrl: '/cosmetic.png', 
         },
@@ -86,14 +89,13 @@ const SearchResultsPage: React.FC = () => {
         result.description.toLowerCase().includes(searchKeyword.toLowerCase())
     );
 
-    const pageTitle = "Top Landing Page Design Inspirations | Webllix";
+    const pageTitle = `${keyword} Top Landing Page Design Inspirations | Webllix`;
     const pageDescription = "Discover the latest and most effective landing page designs for 2024. Get inspiration and tips on how to customize your page for better user engagement and conversions.";
 
     const handleResultClick = (url: string) => {
         setSelectedUrl(url);
         setShowImage(true); 
     };
-
     return (
         <>
             <Head>
@@ -164,37 +166,49 @@ const SearchResultsPage: React.FC = () => {
                                 <a href="" className="text-lg font-semibold text-green-600 hover:text-green-800 hover:underline hover:bg-green-50 p-2 rounded-md transition-colors duration-300">
                                     Digital Product
                                 </a>
-                              
+                                <span className="text-sm font-medium text-gray-500 bg-pink-200 px-2 py-1 rounded-full">
+                                    Upcoming
+                                </span>
                             </li>
                             <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                 <a href="" className="text-lg font-semibold text-purple-600 hover:text-purple-800 hover:underline hover:bg-purple-50 p-2 rounded-md transition-colors duration-300">
                                     Fitness
                                 </a>
-                            
+                                <span className="text-sm font-medium text-gray-500 bg-teal-200 px-2 py-1 rounded-full">
+                                    Upcoming
+                                </span>
                             </li>
                             <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                 <a href="" className="text-lg font-semibold text-red-600 hover:text-red-800 hover:underline hover:bg-red-50 p-2 rounded-md transition-colors duration-300">
                                     Sports
                                 </a>
-                             
+                                <span className="text-sm font-medium text-gray-500 bg-purple-200 px-2 py-1 rounded-full">
+                                    Upcoming
+                                </span>
                             </li>
                             <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                 <a href="" className="text-lg font-semibold text-blue-600 hover:text-blue-800 hover:underline hover:bg-blue-50 p-2 rounded-md transition-colors duration-300">
                                     Consulting
                                 </a>
-                              
+                                <span className="text-sm font-medium text-gray-500 bg-yellow-200 px-2 py-1 rounded-full">
+                                    Upcoming
+                                </span>
                             </li>
                             <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                 <a href="" className="text-lg font-semibold text-green-600 hover:text-green-800 hover:underline hover:bg-green-50 p-2 rounded-md transition-colors duration-300">
                                     Restaurant
                                 </a>
-                             
+                                <span className="text-sm font-medium text-gray-500 bg-pink-200 px-2 py-1 rounded-full">
+                                    Upcoming
+                                </span>
                             </li>
                             <li className="transition-transform transform hover:scale-105 flex items-center space-x-2">
                                 <a href="" className="text-lg font-semibold text-purple-600 hover:text-purple-800 hover:underline hover:bg-purple-50 p-2 rounded-md transition-colors duration-300">
                                     Hospitality 
                                 </a>
-                             
+                                <span className="text-sm font-medium text-gray-500 bg-teal-200 px-2 py-1 rounded-full">
+                                    Upcoming
+                                </span>
                             </li>
                         </ul>
                     </nav>
@@ -220,7 +234,9 @@ const SearchResultsPage: React.FC = () => {
                     ))}
                     {showImage && selectedUrl && (
                         <div className="image-popup">
-                            <Image src={selectedUrl} alt="Selected" />
+                            <Image src={selectedUrl} alt="Selected"    width={500}
+                                height={300}
+                                loading='lazy'/>
                             <button onClick={() => setShowImage(false)}>Close</button>
                         </div>
                     )}
@@ -231,4 +247,4 @@ const SearchResultsPage: React.FC = () => {
     );
 };
 
-export default SearchResultsPage;
+export default Aiwebdesign;
